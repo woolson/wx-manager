@@ -2,6 +2,13 @@
 
 > web app for manage wechat image and article
 
+### Functions
+
+- upload multi images once
+- remove image
+- upload article
+
+### Structure
 ```bash
 ├── README.md
 ├── images    # uploaded images
