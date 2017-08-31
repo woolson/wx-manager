@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Upload Image</title>
+	<link rel="stylesheet" href="/css/common.css">
+</head>
+<body>
+<form class="" action="/api/image/add" method="post" enctype="multipart/form-data">
+	<div class="form-title">上传图片（可多选上传）</div>
+	<div class="form-row">
+		<label for="image">选择图片:</label>
+		<input type="file" accept=".png,.jpg,.gif" name="media" multiple="multiple" required="require">
+	</div>
+	<div class="form-row">
+		<label for="image">是否永久:</label>
+
+		<label for="foreverTrue">
+			<input id="foreverTrue" type="radio" name="forever" value="true"> 是
+		</label>
+
+		<label for="foreverFalse">
+			<input id="foreverFalse" checked="checked" type="radio" name="forever" value="false"> 否
+		</label>
+	</div>
+	<div class="form-row">
+		<button type="submit">提交</button>
+	</div>
+</form>
+
+<form class="" action="/api/image/remove" method="get">
+	<div class="form-title">删除图片</div>
+	<div class="form-row">
+		<label for="image">图片ID:</label>
+		<input type="text" name="media_id" required="require">
+	</div>
+	<div class="form-row">
+		<button type="submit">提交</button>
+	</div>
+</form>
+</body>
+</html>

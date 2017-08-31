@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Upload Article</title>
+	<link rel="stylesheet" href="/css/common.css">
+</head>
+<body>
+<form class="" action="/api/article/add" method="post">
+	<div class="form-title">上传图文详情（文中图片请先<a href="/pages/image">上传</a>）</div>
+	<div class="form-row">
+		<label for="image">标题(必填):</label>
+		<input type="text" name="title" required="required">
+	</div>
+	<div class="form-row">
+		<label for="image" title="图文消息的封面图片素材id（必须是永久mediaID）">
+			封面ID(必填):
+		</label>
+		<input type="number" name="thumb_media_id" required="required">
+	</div>
+	<div class="form-row">
+		<label for="image" title="图文消息的封面图片素材id（必须是永久mediaID）">
+			作者:
+		</label>
+		<input type="text" name="author" >
+	</div>
+	<div class="form-row">
+		<label for="image" title="图文消息的封面图片素材id（必须是永久mediaID）">
+			文章简要:
+		</label>
+		<input type="text" name="digest" >
+	</div>
+	<div class="form-row">
+		<label for="image" title="图文消息的封面图片素材id（必须是永久mediaID）">
+			是否显示封面:
+		</label>
+
+		<label for="coverTrue">
+			<input id="coverTrue" checked="checked" type="radio" name="show_cover_pic" value="true"> 是
+		</label>
+
+		<label for="coverFalse">
+			<input id="coverFalse" type="radio" name="show_cover_pic" value="false"> 否
+		</label>
+	</div>
+	<div class="form-row">
+		<label>消息内容(必填):</label>
+
+		<textarea name="content" rows="8" cols="50" required="required"></textarea>
+	</div>
+	<div class="form-row">
+		<label>原文地址(必填):</label>
+		<input type="text" name="content_source_url" required="required">
+	</div>
+	<div class="form-row">
+		<button type="submit">提交</button>
+	</div>
+</form>
+</body>
+</html>

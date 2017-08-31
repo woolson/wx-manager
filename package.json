@@ -1,0 +1,23 @@
+{
+  "name": "wx-article",
+  "version": "1.0.0",
+  "description": "wechart add article",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js"
+  },
+  "keywords": [
+    "wechat",
+    "article",
+    "express",
+    "nodejs"
+  ],
+  "author": "woolson",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "multer": "^1.3.0",
+    "request": "^2.81.0"
+  }
+}
