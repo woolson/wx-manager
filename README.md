@@ -21,10 +21,12 @@
 ```bash
 npm run start
 # or
-node server index.js
+node server/index.js
 # or (need pm2 installed)
 pm2 start server/index.js
 ```
+
+open [http://localhost:8080/pages/aricle](http://localhost:8080/pages/aricle)
 
 ---
 
