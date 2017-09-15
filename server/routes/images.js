@@ -18,13 +18,15 @@ module.exports = function (app) {
 			var filePath = path.resolve(__dirname, `../../${image.path}`)
 
 			getToken(function(token) {
+				var params = {
+					access_token: token,
+				}
 				var requestParam = {
-					url: 'https://api.weixin.qq.com/cgi-bin/media/uploadimg',
+					url: 'https://api.weixin.qq.com/cgi-bin/media/uploadimg?' + utils.obj2Params(params),
 					headers: {
 						"Content-Type": "multipart/form-data",
 					},
 					formData: {
-						access_token: token,
 						media: {
 							value: fs.createReadStream(filePath),
 							options: {
@@ -37,9 +39,10 @@ module.exports = function (app) {
 					}
 				}
 				if(isForever) {
-					requestParam.url = 'https://api.weixin.qq.com/cgi-bin/material/add_material'
-					requestParam.formData.type = 'image'
+					params.type = 'thumb'
+					requestParam.url = 'https://api.weixin.qq.com/cgi-bin/material/add_material?' + utils.obj2Params(params)
 				}
+
 				// call wechat api
 				request.post(requestParam, function(err, response, body) {
 					var resInfo = JSON.parse(body)

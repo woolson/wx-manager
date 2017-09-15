@@ -6,12 +6,12 @@ var app = express()
 
 var SERVER_PORT = 8080
 
+app.use(express.static('web'))
+app.use(bodyParser.json())
+app.use(bodyParser.urlencoded({extended: false}))
+
 // 加载接口
 routes(app)
-
-app.use(express.static('web'))
-app.use(bodyParser.urlencoded({extended: false}))
-app.use(bodyParser.json())
 
 app.listen(SERVER_PORT)
 console.log('Server start at: ', SERVER_PORT)
