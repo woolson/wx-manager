@@ -72,7 +72,7 @@ export default {
 			formData: {
 				show_cover_pic: 'false',
 			},
-			mediaId: 'xHVldggmXZIT7d9Saiynz9XbpTY-YsPwRU50DCE7Syw',
+			mediaId: '',
 			copySuccessFn: require('src/common/utils').copySuccessFn,
 		}
 	},
