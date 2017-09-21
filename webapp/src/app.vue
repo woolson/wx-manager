@@ -13,14 +13,14 @@ div#app
 				span 文章
 			MenuItem(name="1")
 				Icon(type="ios-keypad")
-				span 素材
+				span 媒体
 	router-view
 </template>
 
 <script>
 const PATH = [
 	'/article',
-	'/material',
+	'/media',
 ]
 
 export default {
@@ -31,7 +31,7 @@ export default {
 
 	computed: {
 		currentPage () {
-			return PATH.indexOf(this.$route.path) + ""
+			return PATH.findIndex(item => this.$route.path.indexOf(item) !== -1) + ''
 		}
 	},
 

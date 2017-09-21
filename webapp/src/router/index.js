@@ -8,6 +8,9 @@ Vue.use(Router)
 const config = [
 	{ path: '', name: 'home' },
 	{ path: '/article', name: 'article' },
+	{ path: '/article/add', name: 'articleAdd' },
+	{ path: '/media', name: 'media' },
+	{ path: '/media/add', name: 'mediaAdd' },
 ]
 
 const routes = [
@@ -22,7 +25,6 @@ const routes = [
 function parseRoute (items) {
 	return items.map(item => {
 		const path = item.path.replace(/(:|\?)\w+$/g, '')
-		console.log(path);
 		const result = {
 			path,
 			name: item.name,
@@ -43,6 +45,9 @@ RootRouter.beforeEach((to, from, next) => {
 	const titleMap = {
 		home: '主页',
 		article: '图文',
+		articleAdd: '添加图文',
+		media: '媒体',
+		mediaAdd: '添加媒体',
 	}
 	// 切换页面修改title
 	setTitle(titleMap[to.name])

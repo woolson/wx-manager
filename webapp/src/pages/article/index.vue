@@ -3,20 +3,23 @@ div.article
 	h2 文章列表
 	div
 		Button(type="info" @click="fetchArtile") 查询图文
-		Button(type="success" class="u-ml10") 添加图文
+		Button(type="success" @click="$router.push('/article/add')" class="u-ml10") 添加图文
 	ul.article__list
 		li(v-for="article in articles")
-			img(:src="article.thumb_url")
-			div
-				h3 {{article.title}}
-				p
-					span {{article.media_id}}
-					span(v-clipboard="article.media_id" class="u-mr10") 点击复制
-				p {{article.create_time}}
+			h3 {{article.title}}
+			p.media-id
+				span {{article.media_id}}
+				span(
+					class="u-mr10"
+					v-clipboard="article.media_id"
+					@success="copySuccess"
+				) 点击复制
+			p.date {{article.create_time}}
 </template>
 
 <script>
 import iView from 'iview'
+import data from './faker'
 
 export default {
 	data () {
@@ -27,18 +30,50 @@ export default {
 
 	methods: {
 		fetchArtile () {
-			this.$get('/api/article/getAll')
-				.then(data => this.articles = data)
+			this.articles = data
+			// this.$get('/api/article/getAll')
+			// 	.then(data => this.articles = data)
 		},
+		copySuccess () {
+			this.$Message.success('复制成功')
+		}
 	},
 }
 </script>
 
 <style lang="stylus" scoped>
 .article
-	padding: 1rem 0
-	max-width: 900px
-	margin: 0 auto
+	padding 1rem 0
+	max-width 900px
+	margin 0 auto
 	h2
-		margin-bottom: 1rem
+	> div
+		margin-bottom 1rem
+		margin-bottom 1rem
+
+.article__list li
+	border $border-default
+	padding .8rem
+	border-radius .25rem
+	margin-bottom .5rem
+	h3
+		margin-bottom .5rem
+	p
+		line-height 1rem
+		&.media-id
+			span:first-child
+				color $color-main
+				margin-right 1rem
+			span:last-child
+				text-decoration underline
+				color $color-blue
+				cursor pointer
+				&:active
+					color darken($color-blue, 80%)
+				&:visited
+					color darken($color-blue, 50%)
+				&:hover
+					color darken($color-blue, 30%)
+		&.date
+			color $font-color-gray
 </style>

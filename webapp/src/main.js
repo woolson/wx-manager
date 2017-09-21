@@ -3,6 +3,7 @@ import Iview from 'iview'
 import App from './app'
 import router from './router'
 import Fetch from 'src/common/fetch'
+import VueClipboards from 'vue-clipboards'
 
 import 'src/common/normalize'
 import 'src/common/animation'
@@ -11,6 +12,7 @@ import 'iview/dist/styles/iview.css'
 
 Vue.use(Iview)
 Vue.use(Fetch)
+Vue.use(VueClipboards)
 
 new Vue({
 	el: '#app',
