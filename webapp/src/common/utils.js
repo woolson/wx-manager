@@ -1,3 +1,4 @@
+import iView from 'iview'
 import { get } from 'src/common/fetch'
 
 // 开发环境
@@ -179,4 +180,8 @@ export function dateFormat (date, template = 'YYYY-MM-DD') {
 	})
 
 	return template
+}
+
+export function copySuccessFn () {
+	iView.Message.success('复制成功')
 }

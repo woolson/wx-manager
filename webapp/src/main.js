@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import Iview from 'iview'
+import iView from 'iview'
 import App from './app'
 import router from './router'
 import Fetch from 'src/common/fetch'
@@ -10,7 +10,7 @@ import 'src/common/animation'
 import 'src/common/utils.styl'
 import 'iview/dist/styles/iview.css'
 
-Vue.use(Iview)
+Vue.use(iView)
 Vue.use(Fetch)
 Vue.use(VueClipboards)
 

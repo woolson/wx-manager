@@ -12,7 +12,7 @@ div.article
 				span(
 					class="u-mr10"
 					v-clipboard="article.media_id"
-					@success="copySuccess"
+					@success="copySuccessFn"
 				) 点击复制
 			p.date {{article.create_time}}
 </template>
@@ -25,6 +25,7 @@ export default {
 	data () {
 		return {
 			articles: [],
+			copySuccessFn: require('src/common/utils').copySuccessFn,
 		}
 	},
 
@@ -34,9 +35,6 @@ export default {
 			// this.$get('/api/article/getAll')
 			// 	.then(data => this.articles = data)
 		},
-		copySuccess () {
-			this.$Message.success('复制成功')
-		}
 	},
 }
 </script>

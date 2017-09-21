@@ -10,14 +10,14 @@ module.exports = function (app) {
 
 		if(!utils.isEmpty(params)) {
 			getToken(function(token) {
+				var url = 'https://api.weixin.qq.com/cgi-bin/material/add_news'
 				var data = {
-					access_token: token,
 					articles: [
 						params,
 					],
 				}
 				request.post({
-					url: 'https://api.weixin.qq.com/cgi-bin/material/add_news',
+					url: `${url}?access_token=${token}`,
 					headers: {
 						contentType: 'application/json; charset=utf-8',
 					},

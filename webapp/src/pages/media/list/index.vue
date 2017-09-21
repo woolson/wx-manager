@@ -10,13 +10,13 @@ ul.media-list
 				span {{item.data.media_id}}
 				span(
 					v-clipboard="item.data.media_id"
-					@success="copySuccess"
+					@success="copySucessFu"
 				) 点击复制
 			a(target="_blank" v-show="item.data.url")
 				span {{item.data.url}}
 				span(
 					v-clipboard="item.data.url"
-					@success="copySuccess"
+					@success="copySuccessFn"
 				) 点击复制
 </template>
 
@@ -27,9 +27,7 @@ export default {
 	props: ['list', 'title'],
 
 	methods: {
-		copySuccess () {
-			this.$Message.success('复制成功')
-		},
+		copySuccessFn: require('src/common/utils').copySuccessFn,
 	},
 }
 </script>
