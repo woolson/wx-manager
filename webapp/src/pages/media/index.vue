@@ -2,16 +2,37 @@
 div.media
 	h2 媒体列表
 	div
-		Button(type="info" @click="fetchArtile") 查询媒体
+		Button(type="info" @click="fetchData") 查询媒体
 		Button(type="success" @click="$router.push('/media/add')" class="u-ml10") 添加媒体
+	Form
+		FormItem(label="媒体类型")
+			RadioGroup(v-model="type")
+				Radio(label="image") 图片
+				Radio(label="vedio") 视频
+				Radio(label="voice") 声音
+	list(:list="list" title="素材列表" v-show="list.length !== 0")
 </template>
 
 <script>
+import List from './list/index.vue'
+
 export default {
+	components: {
+		'list': List,
+	},
+
 	data () {
 		return {
-
+			type: 'image',
+			list: [],
 		}
+	},
+
+	methods: {
+		fetchData () {
+			this.$get('/api/material/get')
+				.then(data => this.list = data)
+		},
 	},
 }
 </script>

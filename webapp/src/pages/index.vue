@@ -1,5 +1,5 @@
 <template lang="pug">
-div.layout
+div.home
 	div.layout-content-main 内容区域
 </div>
 </template>

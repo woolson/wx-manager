@@ -4,8 +4,8 @@ var utils = require('../common/utils')
 
 // add article info
 module.exports = function (app) {
-	app.post('/api/material/get', function(req, res, next) {
-		var params = req.body || {}
+	app.get('/api/material/get', function(req, res, next) {
+		var params = req.query || {}
 		var type = params.type || 'news'
 
 		getToken(function(token) {
@@ -22,11 +22,19 @@ module.exports = function (app) {
 				},
 				form: JSON.stringify(data),
 			}, function(err, response, body) {
-				res.send({
-					msg: '成功',
-					success: true,
-					data: JSON.parse(body),
-				})
+				var data = JSON.parse(body)
+				if(!data.errcode) {
+					res.send({
+						msg: '成功',
+						success: true,
+						data,
+					})
+				}else {
+					res.send({
+						msg: data.errmsg,
+						success: false,
+					})
+				}
 			})
 		})
 	})

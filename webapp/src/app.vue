@@ -9,16 +9,20 @@ div#app
 		div.layout-logo
 		div.layout-nav
 			MenuItem(name="0")
-				Icon(type="ios-navigate")
-				span 文章
+				Icon(type="ios-home")
+				span 主页
 			MenuItem(name="1")
-				Icon(type="ios-keypad")
+				Icon(type="document")
+				span 文章
+			MenuItem(name="2")
+				Icon(type="images")
 				span 媒体
 	router-view
 </template>
 
 <script>
 const PATH = [
+	'/',
 	'/article',
 	'/media',
 ]
@@ -31,7 +35,10 @@ export default {
 
 	computed: {
 		currentPage () {
-			return PATH.findIndex(item => this.$route.path.indexOf(item) !== -1) + ''
+			return PATH.findIndex(item => {
+				if(this.$route.path === '/') return true
+				else this.$route.path.indexOf(item) !== -1
+			}) + ''
 		}
 	},
 

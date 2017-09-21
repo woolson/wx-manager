@@ -42,6 +42,7 @@ const common = (type, url, data, options = {}) => {
 				errorMessage: resData.msg,
 				error: true,
 			}
+			iView.Message.error('获取数据错误')
 			return Promise.reject(error)
 		}
 	})
@@ -62,8 +63,7 @@ axios.interceptors.response.use(function (response) {
 }, function (error) {
 	// 关闭loading
 	iView.LoadingBar.finish()
-
-	if (error.message) Toast(error.message)
+	if (error.errorMessage) Toast(error.errorMessage)
 	return Promise.reject(error)
 })
 
