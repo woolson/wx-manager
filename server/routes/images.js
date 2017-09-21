@@ -12,7 +12,7 @@ module.exports = function (app) {
 		var isForever = req.body.forever ? req.body.forever === 'true' : false
 		var files = req.files || {}
 		var images = files.media || []
-		var result = []
+		var result = { data: [] }
 
 		images.forEach(function(image) {
 			var filePath = path.resolve(__dirname, `../../${image.path}`)
@@ -49,25 +49,31 @@ module.exports = function (app) {
 
 					if(!resInfo.errcode) {
 						resInfo.url = resInfo.url.replace(/\\/g, "")
-						result.push({
+						result.data.push({
 							name: image.originalname,
 							data: resInfo,
 						})
 					}else {
-						result.push({
+						result.data.push({
 							name: image.originalname,
 							errorMsg: resInfo.errmsg,
 							errorCode: resInfo.errcode,
 						})
 					}
 					// response request when all images uploaded
-					if(result.length === images.length) res.send(result)
+					if(result.data.length === images.length) {
+						result.success = true
+						res.send(result)
+					}
 				})
 			})
 		})
 	})
 
 	app.get('/api/image/remove', function(req, res, next) {
-		res.send('comming soon')
+		res.send({
+			msg: 'comming soon',
+			success: false,
+		})
 	})
 }

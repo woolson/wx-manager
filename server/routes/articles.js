@@ -1,6 +1,7 @@
 var request = require('request')
 var getToken = require('../common/token')
 var utils = require('../common/utils')
+var assign = require('object-assign')
 
 // add article info
 module.exports = function (app) {
@@ -9,29 +10,40 @@ module.exports = function (app) {
 
 		if(!utils.isEmpty(params)) {
 			getToken(function(token) {
-				var url = 'https://api.weixin.qq.com/cgi-bin/material/add_news'
 				var data = {
+					access_token: token,
 					articles: [
 						params,
 					],
 				}
 				request.post({
-					url: `${url}?access_token=${token}`,
+					url: 'https://api.weixin.qq.com/cgi-bin/material/add_news',
 					headers: {
 						contentType: 'application/json; charset=utf-8',
 					},
 					form: JSON.stringify(data),
 				}, function(err, response, body) {
 					var resInfo = JSON.parse(body)
-					if(!resInfo.errcode) {
+					if (!resInfo.errcode) {
 						res.send({
 							msg: '添加成功',
+							success: true,
 							data: resInfo,
 						})
-					}else res.send(resInfo)
+					} else {
+						res.send({
+							msg: resInfo,
+							success: false,
+						})
+					}
 				})
 			})
-		} else res.send({msg: '请填写参数'})
+		} else {
+			res.send({
+				msg: '请填写参数',
+				success: false,
+			})
+		}
 	})
 
 	app.get('/api/article/getAll', function(req, res, next) {
@@ -39,23 +51,42 @@ module.exports = function (app) {
 		var type = params.type || 'news'
 
 		getToken(function(token) {
+			var url = 'https://api.weixin.qq.com/cgi-bin/material/batchget_material'
 			var data = {
+				access_token: token,
 				type: type,
 				offset: 0,
 				count: 20,
 			}
 
 			request.post({
-				url: `https://api.weixin.qq.com/cgi-bin/material/batchget_material?access_token=${token}`,
+				url: `${url}?access_token=${token}`,
 				headers: {
 					contentType: 'application/json; charset=utf-8',
 				},
 				form: JSON.stringify(data),
 			}, function(err, response, body) {
-				res.send({
-					msg: '成功',
-					data: JSON.parse(body),
-				})
+				var data = JSON.parse(body)
+
+				if(!data.errmsg) {
+					const list = data.item.map(function(item) {
+						return assign({
+							media_id: item.media_id,
+							create_time: utils.dateFormat(item.content.create_time),
+							update_time: utils.dateFormat(item.content.update_time),
+						}, item.content.news_item[0])
+					})
+					res.send({
+						msg: '成功',
+						success: true,
+						data: list,
+					})
+				} else {
+					res.send({
+						msg: data.errmsg,
+						success: false,
+					})
+				}
 			})
 		})
 	})

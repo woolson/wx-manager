@@ -19,5 +19,8 @@
     "express": "^4.15.4",
     "multer": "^1.3.0",
     "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "object-assign": "^4.1.1"
   }
 }

@@ -24,6 +24,7 @@ module.exports = function (app) {
 			}, function(err, response, body) {
 				res.send({
 					msg: '成功',
+					success: true,
 					data: JSON.parse(body),
 				})
 			})

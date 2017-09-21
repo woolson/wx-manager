@@ -4,6 +4,7 @@ module.exports = {
 	getType: getType,
 	getTimeStamp: getTimeStamp,
 	isEmpty: isEmpty,
+	dateFormat: dateFormat,
 }
 
 function getTimeStamp () {
@@ -93,4 +94,34 @@ function getType(value) {
 
 	typeStr = typeStr.replace(/.*\s(\w+)\]/g, '$1')
 	return typeStr.toLowerCase()
+}
+
+function dateFormat (date, template) {
+	if(!isNaN(date) && date / 1000000000000 < 1) {
+		date = date * 1000
+	}
+
+	var tmp =  template || 'YYYY-MM-DD'
+	var newDate = new Date(date)
+	var fullYear = newDate.getFullYear()
+	var year = String(fullYear).substr(2)
+	var month = newDate.getMonth() + 1
+	var monthWithZero = ('0' + month).substr(-2)
+	var day = newDate.getDate()
+	var dayWithZero = ('0' + day).substr(-2)
+
+	var items = [
+		{ key: 'YYYY', value: fullYear },	// 2017年
+		{ key: 'YY', value: year },			// 17年
+		{ key: 'MM', value: monthWithZero },// 02月
+		{ key: 'mm', value: month },		// 02月
+		{ key: 'DD', value: dayWithZero },	// 02月
+		{ key: 'dd', value: day },// 02月
+	]
+
+	items.forEach(item => {
+		tmp = tmp.replace(item.key, item.value)
+	})
+
+	return tmp
 }

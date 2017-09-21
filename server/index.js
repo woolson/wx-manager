@@ -4,7 +4,7 @@ var routes = require('./routes/index')
 var config = require('./common/config')
 var app = express()
 
-var SERVER_PORT = 8080
+var SERVER_PORT = 8081
 
 app.use(express.static('web'))
 app.use(bodyParser.json())
