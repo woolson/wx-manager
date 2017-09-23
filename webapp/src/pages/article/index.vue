@@ -1,5 +1,5 @@
 <template lang="pug">
-div.article
+div.article.common-block
 	h2 图文列表
 	div
 		Button(
@@ -52,7 +52,6 @@ export default {
 
 <style lang="stylus" scoped>
 .article
-	padding 1rem 0
 	h2
 	> div
 		margin-bottom 1rem

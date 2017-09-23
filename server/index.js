@@ -7,7 +7,7 @@ var app = express()
 
 var SERVER_PORT = 8081
 
-app.use(express.static('web'))
+app.use(express.static('web.backup'))
 app.use(cookieParser())
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended: false}))

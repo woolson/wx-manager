@@ -1,5 +1,5 @@
 <template lang="pug">
-div.media
+div.media.common-block
 	h2 媒体列表
 	div
 		Button(
@@ -55,7 +55,6 @@ export default {
 
 <style lang="stylus">
 .media
-	padding 1rem 0
 	h2
 	> div
 		margin-bottom 1rem

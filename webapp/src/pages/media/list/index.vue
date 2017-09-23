@@ -46,27 +46,28 @@ export default {
 .media-list__item
 	padding .5rem
 	display flex
-	border-top: $border-default
+	border-top $border-default
 
 .media-list__item__image
-	width: 5rem
-	margin-right: .5rem
+	width 5rem
+	margin-right .5rem
+	flex-shrink 0
 	img
-		width: 100%
+		width 100%
 
 .media-list__item__content
+	flex 1
 	h3
-		margin-bottom: .5rem
+		margin-bottom .5rem
 	a
-		display  block
+		display flex
 		span:first-child
-			display: inline-block
+			flex 1
+			width: 0
 			color $color-main
-			max-width 400px
-			text-overflow: ellipsis
-			overflow: hidden
-			white-space: nowrap
-			vertical-align: middle
+			text-overflow ellipsis
+			overflow hidden
+			white-space nowrap
 		span:last-child
 			color $color-blue
 			margin-left .5rem

@@ -25,6 +25,7 @@ module.exports = function (app) {
 						"Content-Type": "multipart/form-data",
 					},
 					formData: {
+						access_token: token,
 						media: {
 							value: fs.createReadStream(filePath),
 							options: {
@@ -37,8 +38,8 @@ module.exports = function (app) {
 					}
 				}
 				if(isForever) {
-					params.type = 'thumb'
-					requestParam.url = 'https://api.weixin.qq.com/cgi-bin/material/add_material?' + utils.obj2Params(params)
+					requestParam.formData.type = 'thumb'
+					requestParam.url = 'https://api.weixin.qq.com/cgi-bin/material/add_material'
 				}
 
 				// call wechat api
@@ -47,10 +48,8 @@ module.exports = function (app) {
 
 					if(!resInfo.errcode) {
 						resInfo.url = resInfo.url.replace(/\\/g, "")
-						result.data.push({
-							name: image.originalname,
-							data: resInfo,
-						})
+						resInfo.name = image.originalname
+						result.data.push(resInfo)
 					}else {
 						result.data.push({
 							name: image.originalname,

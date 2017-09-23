@@ -1,5 +1,5 @@
 <template lang="pug">
-div.article-add
+div.article-add.common-block
 	Form(
 		ref="form"
 		v-if="!mediaId"
@@ -49,9 +49,16 @@ div.article-add
 				placeholder="请输入原文地址URL"
 			)
 		FormItem
-			Button(type="primary" @click="onSubmit") 提交
+			Button(
+				type="success"
+				shape="circle"
+				size="small"
+				@click="onSubmit"
+			) 提交
 			Button(
 				type="ghost"
+				shape="circle"
+				size="small"
 				@click="$router.go(-1)"
 				class="u-ml10"
 			) 取消
@@ -100,11 +107,10 @@ export default {
 <style lang="stylus" scoped>
 .article-add
 	padding 1rem 0
-	max-width 600px
 	margin 0 auto
 	h2
 		text-align: center
 		margin-bottom: 1rem
-	form
-		margin-left: -120px
+	button
+		min-width 3rem
 </style>

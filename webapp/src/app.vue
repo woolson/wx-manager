@@ -56,28 +56,16 @@ export default {
 
 #app
 	background: $color-bg
-	.article
-	.media
-	.setting
-		padding .8rem
-		margin .5rem
-		border-radius .25rem
-		background: white
-		box-shadow 0 0 .8rem rgba(black, .05)
-		margin .5rem auto
+	min-width: 360px
 
 @media screen and (max-width: 760px)
 	#app
-		.article
-		.media
-		.setting
+		.common-block
 			padding .8rem
 			margin .5rem !important
 
 @media screen and (min-width: 760px)
 	#app
-		.article
-		.media
-		.setting
+		.common-block
 			max-width 760px
 </style>

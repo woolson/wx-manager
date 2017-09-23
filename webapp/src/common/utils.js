@@ -185,3 +185,15 @@ export function dateFormat (date, template = 'YYYY-MM-DD') {
 export function copySuccessFn () {
 	iView.Message.success('复制成功')
 }
+
+export function formatSize(size, digit = 2) {
+	const unit = ["B", "KB", "MB", "GB", "TB"]
+	let unitIndex = 0
+
+	while(size > 1000) {
+		size = size / 1000
+		unitIndex++
+	}
+
+	return `${Number(size).toFixed(digit)}${unit[unitIndex]}`
+}

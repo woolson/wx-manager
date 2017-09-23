@@ -1,5 +1,5 @@
 <template lang="pug">
-div.setting
+div.setting.common-block
 	h2.u-mb15 设置APP
 	Tabs(v-model="tabIndex")
 		TabPane(label="列表" icon="ios-list-outline")
@@ -122,10 +122,7 @@ export default {
 }
 </script>
 
-<style lang="stylus">
-.setting
-	padding 1rem 0
-
+<style lang="stylus" scoped>
 .ivu-radio-group
 	width: 100%
 
