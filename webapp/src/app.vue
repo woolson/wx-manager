@@ -33,8 +33,13 @@ const PATH = [
 export default {
 	computed: {
 		currentPage () {
-			if(this.$route.path === '/') return '0'
-			return PATH.indexOf(this.$route.path) + ''
+			const path = this.$route.path
+			if(path === '/') return '0'
+			const index = PATH.findIndex(o => {
+				if(o === '/') return false
+				return path.indexOf(o) !== -1
+			})
+			return index + ''
 		},
 	},
 

@@ -106,8 +106,6 @@ export default {
 
 <style lang="stylus" scoped>
 .article-add
-	padding 1rem 0
-	margin 0 auto
 	h2
 		text-align: center
 		margin-bottom: 1rem

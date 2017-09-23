@@ -1,8 +1,8 @@
 <template lang="pug">
 div.setting.common-block
-	h2.u-mb15 设置APP
+	h2.u-mb15 设置
 	Tabs(v-model="tabIndex")
-		TabPane(label="列表" icon="ios-list-outline")
+		TabPane(label="测试号列表" icon="ios-list-outline")
 			RadioGroup(v-model="app")
 				ul.setting__apps
 					li(v-for="item in apps")
@@ -40,7 +40,7 @@ div.setting.common-block
 							@click="deleteApp"
 						) 删除
 
-		TabPane(label="添加" icon="plus")
+		TabPane(label="添加测试号" icon="plus")
 			div.setting__add
 				Form(:model="appInfo" :label-width="80")
 					FormItem(label="名称")
@@ -62,6 +62,12 @@ div.setting.common-block
 							size="small"
 							@click="tabIndex = 0"
 						) 取消
+		TabPane.u-ta-center(label="测试号列表" icon="android-refresh")
+			Button.u-w80.u-mt40(
+				type="error"
+				shape="circle"
+				@click="clearApi"
+			) 清零
 </template>
 
 <script>
@@ -118,6 +124,15 @@ export default {
 					this.fetchApps()
 				})
 		},
+		clearApi () {
+			this.$Modal.confirm({
+				content: '<h3>确认清零API接口调用次数？</h3><p>(每个帐号每月共10次清零操作机会)</p>',
+				onOk: () => {
+					this.$post('/api/app/clear')
+						.then(data => this.$Message.success('清零成功'))
+				},
+			})
+		}
 	},
 }
 </script>

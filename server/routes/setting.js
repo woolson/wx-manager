@@ -1,6 +1,8 @@
 var fs = require('fs')
 var path = require('path')
+var request = require('request')
 var Token = require('../common/token')
+var utils = require('../common/utils')
 var configPath = path.join(__dirname, '../common/config.json')
 var appsPath = path.join(__dirname, '../common/apps.json')
 
@@ -55,6 +57,31 @@ module.exports = function (app) {
 		res.send({
 			success: true,
 			msg: '成功',
+		})
+	})
+
+	app.post('/api/app/clear', function(req, res) {
+		Token.getToken(function(token) {
+			var url = 'https://api.weixin.qq.com/cgi-bin/clear_quota'
+			var params = {
+				appid: JSON.parse(fs.readFileSync(configPath)).appId,
+			}
+			var requestParam = `${url}?access_token=${token}`
+			request.post({
+				url: requestParam,
+				headers: {
+					contentType: 'application/json; charset=utf-8',
+				},
+				form: JSON.stringify(params),
+			}, function(err, response, body) {
+				var data = JSON.parse(body)
+				console.log(data)
+				if(!data.errcode) {
+					res.send({success: true, msg: '成功'})
+				}else {
+					res.send({success: false, msg: data.errmsg})
+				}
+			})
 		})
 	})
 }
