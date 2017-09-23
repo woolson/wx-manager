@@ -2,7 +2,7 @@
 div.setting.common-block
 	h2.u-mb15 设置
 	Tabs(v-model="tabIndex")
-		TabPane(label="测试号列表" icon="ios-list-outline")
+		TabPane(label="测试号列表")
 			RadioGroup(v-model="app")
 				ul.setting__apps
 					li(v-for="item in apps")
@@ -40,7 +40,7 @@ div.setting.common-block
 							@click="deleteApp"
 						) 删除
 
-		TabPane(label="添加测试号" icon="plus")
+		TabPane(label="添加测试号")
 			div.setting__add
 				Form(:model="appInfo" :label-width="80")
 					FormItem(label="名称")
@@ -50,21 +50,21 @@ div.setting.common-block
 					FormItem(label="Secret")
 						Input(v-model="appInfo.secret" placeholder="请输入秘钥")
 					FormItem.setting__add__buttons
-						Button(
+						Button.u-w80(
 							type="success"
 							shape="circle"
 							class="u-mr10"
 							size="small"
 							@click="addApp"
 						) 确定
-						Button(
+						Button.u-w80.u-ml20(
 							shape="circle"
 							size="small"
 							@click="tabIndex = 0"
 						) 取消
-		TabPane.u-ta-center(label="测试号列表" icon="android-refresh")
+		TabPane.u-ta-center(label="调用清零")
 			Button.u-w80.u-mt40(
-				type="error"
+				type="success"
 				shape="circle"
 				@click="clearApi"
 			) 清零

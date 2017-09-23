@@ -2,6 +2,10 @@
 
 > web app for manage wechat image and article
 
+### TODO
+
+- clear history
+
 ### Functions
 
 - upload multi images once
