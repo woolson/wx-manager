@@ -21,7 +21,12 @@ div.media
 				Radio(label="image") 图片
 				Radio(label="vedio") 视频
 				Radio(label="voice") 声音
-	list(:list="list" title="素材列表" v-show="list.length !== 0")
+	list(
+		:list="list"
+		title="素材列表"
+		v-show="list !== null && list.length !== 0"
+	)
+	p(v-show="list && list.length === 0") 暂无内容
 </template>
 
 <script>
@@ -35,7 +40,7 @@ export default {
 	data () {
 		return {
 			type: 'image',
-			list: [],
+			list: null,
 		}
 	},
 
@@ -55,4 +60,7 @@ export default {
 	> div
 		margin-bottom 1rem
 		margin-bottom 1rem
+	> p
+		font-size: 1rem
+		text-align: center
 </style>

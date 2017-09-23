@@ -1,5 +1,6 @@
 var fs = require('fs')
 var path = require('path')
+var Token = require('../common/token')
 var configPath = path.join(__dirname, '../common/config.json')
 var appsPath = path.join(__dirname, '../common/apps.json')
 
@@ -27,6 +28,7 @@ module.exports = function (app) {
 		var apps = JSON.parse(fs.readFileSync(appsPath))
 		var appInfo = apps[data.id]
 		fs.writeFileSync(configPath, JSON.stringify(appInfo))
+		Token.updateToken()
 		res.send({
 			success: true,
 			msg: '成功',

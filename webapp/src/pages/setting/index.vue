@@ -1,5 +1,6 @@
 <template lang="pug">
 div.setting
+	h2.u-mb15 设置APP
 	Tabs(v-model="tabIndex")
 		TabPane(label="列表" icon="ios-list-outline")
 			RadioGroup(v-model="app")

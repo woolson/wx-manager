@@ -19,7 +19,8 @@ module.exports = {
 }
 
 function fetchToken (callback) {
-	var config = require('./config')
+	var configPath = path.join(__dirname, './config.json')
+	var config = JSON.parse(fs.readFileSync(configPath))
 	var param = {
 		grant_type: 'client_credential',
 		appid: config.appId,

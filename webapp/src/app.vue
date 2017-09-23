@@ -11,7 +11,7 @@ div#app
 				Icon(type="ios-home")
 				span 主页
 			MenuItem(name="1")
-				Icon(type="document")
+				Icon(type="android-list")
 				span 图文
 			MenuItem(name="2")
 				Icon(type="images")
@@ -67,11 +67,17 @@ export default {
 		margin .5rem auto
 
 @media screen and (max-width: 760px)
-	#app > div
-		padding .8rem
-		margin .5rem !important
+	#app
+		.article
+		.media
+		.setting
+			padding .8rem
+			margin .5rem !important
 
 @media screen and (min-width: 760px)
-	#app > div
-		max-width 760px
+	#app
+		.article
+		.media
+		.setting
+			max-width 760px
 </style>
