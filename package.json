@@ -21,6 +21,7 @@
     "request": "^2.81.0"
   },
   "devDependencies": {
+    "cookie-parser": "^1.4.3",
     "object-assign": "^4.1.1"
   }
 }

@@ -35,17 +35,18 @@ const common = (type, url, data, options = {}) => {
 		iView.LoadingBar.start()
 	}
 
-	return axios(config).then(resData => {
-		if (resData.success) return resData.data || {}
-		else {
-			const error = {
-				errorMessage: resData.msg,
-				error: true,
+	return axios(config).
+		then(resData => {
+			if (resData.success) return resData.data || {}
+			else {
+				const error = {
+					errorMessage: resData.msg,
+					error: true,
+				}
+				iView.Message.error('获取数据错误')
+				return Promise.reject(error)
 			}
-			iView.Message.error('获取数据错误')
-			return Promise.reject(error)
-		}
-	})
+		})
 }
 
 axios.interceptors.request.use(function (config) {
@@ -63,7 +64,11 @@ axios.interceptors.response.use(function (response) {
 }, function (error) {
 	// 关闭loading
 	iView.LoadingBar.finish()
-	if (error.errorMessage) Toast(error.errorMessage)
+
+	if (error.response.status === 403) {
+		window.vm.$router.push('/login')
+	}
+
 	return Promise.reject(error)
 })
 

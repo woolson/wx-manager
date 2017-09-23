@@ -3,19 +3,19 @@ ul.media-list
 	li.media-list__title {{title}}
 	li.media-list__item(v-for="item in list")
 		div.media-list__item__image
-			img(:src="item.data.url")
+			img(:src="item.url")
 		div.media-list__item__content
 			h3 {{item.name}}
-			a(target="_blank" v-show="item.data.media_id")
-				span {{item.data.media_id}}
+			a(target="_blank" v-show="item.media_id")
+				span {{item.media_id}}
 				span(
-					v-clipboard="item.data.media_id"
-					@success="copySucessFu"
+					v-clipboard="item.media_id"
+					@success="copySuccessFn"
 				) 点击复制
-			a(target="_blank" v-show="item.data.url")
-				span {{item.data.url}}
+			a(target="_blank" v-show="item.url")
+				span {{item.url}}
 				span(
-					v-clipboard="item.data.url"
+					v-clipboard="item.url"
 					@success="copySuccessFn"
 				) 点击复制
 </template>

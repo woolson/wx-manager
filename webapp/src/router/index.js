@@ -7,10 +7,12 @@ Vue.use(Router)
 
 const config = [
 	{ path: '', name: 'home' },
+	{ path: '/login', name: 'login' },
 	{ path: '/article', name: 'article' },
 	{ path: '/article/add', name: 'articleAdd' },
 	{ path: '/media', name: 'media' },
 	{ path: '/media/add', name: 'mediaAdd' },
+	{ path: '/setting', name: 'setting' },
 ]
 
 const routes = [
@@ -44,10 +46,12 @@ RootRouter.beforeEach((to, from, next) => {
 	iView.LoadingBar.start()
 	const titleMap = {
 		home: '主页',
+		login: '登录',
 		article: '图文',
 		articleAdd: '添加图文',
 		media: '媒体',
 		mediaAdd: '添加媒体',
+		setting: '设置',
 	}
 	// 切换页面修改title
 	setTitle(titleMap[to.name])

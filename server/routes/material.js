@@ -1,5 +1,5 @@
 var request = require('request')
-var getToken = require('../common/token')
+var Token = require('../common/token')
 var utils = require('../common/utils')
 
 // add article info
@@ -8,7 +8,8 @@ module.exports = function (app) {
 		var params = req.query || {}
 		var type = params.type || 'news'
 
-		getToken(function(token) {
+		Token.getToken(function(token) {
+			var url = 'https://api.weixin.qq.com/cgi-bin/material/batchget_material'
 			var data = {
 				type: type,
 				offset: 0,
@@ -16,7 +17,7 @@ module.exports = function (app) {
 			}
 
 			request.post({
-				url: `https://api.weixin.qq.com/cgi-bin/material/batchget_material?access_token=${token}`,
+				url: `${url}?access_token=${token}`,
 				headers: {
 					contentType: 'application/json; charset=utf-8',
 				},

@@ -1,9 +1,20 @@
 <template lang="pug">
 div.article
-	h2 文章列表
+	h2 图文列表
 	div
-		Button(type="info" @click="fetchArtile") 查询图文
-		Button(type="success" @click="$router.push('/article/add')" class="u-ml10") 添加图文
+		Button(
+			type="info"
+			shape="circle"
+			size="small"
+			@click="fetchArtile"
+		) 查询图文
+		Button(
+			type="success"
+			class="u-ml10"
+			shape="circle"
+			size="small"
+			@click="$router.push('/article/add')"
+		) 添加图文
 	ul.article__list
 		li(v-for="article in articles")
 			h3 {{article.title}}
@@ -31,9 +42,8 @@ export default {
 
 	methods: {
 		fetchArtile () {
-			this.articles = data
-			// this.$get('/api/article/getAll')
-			// 	.then(data => this.articles = data)
+			this.$get('/api/article/getAll')
+				.then(data => this.articles = data)
 		},
 	},
 }
@@ -42,8 +52,6 @@ export default {
 <style lang="stylus" scoped>
 .article
 	padding 1rem 0
-	max-width 900px
-	margin 0 auto
 	h2
 	> div
 		margin-bottom 1rem

@@ -14,7 +14,7 @@ Vue.use(iView)
 Vue.use(Fetch)
 Vue.use(VueClipboards)
 
-new Vue({
+window.vm = new Vue({
 	el: '#app',
 	router,
 	template: '<App/>',

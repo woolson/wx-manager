@@ -2,7 +2,7 @@ var request = require('request')
 var multer = require('multer')
 var path = require('path')
 var fs = require('fs')
-var getToken = require('../common/token')
+var Token = require('../common/token')
 var utils = require('../common/utils')
 var upload = multer({dest: './images/'})
 
@@ -17,12 +17,10 @@ module.exports = function (app) {
 		images.forEach(function(image) {
 			var filePath = path.resolve(__dirname, `../../${image.path}`)
 
-			getToken(function(token) {
-				var params = {
-					access_token: token,
-				}
+			Token.getToken(function(token) {
+				var url = 'https://api.weixin.qq.com/cgi-bin/media/uploadimg'
 				var requestParam = {
-					url: 'https://api.weixin.qq.com/cgi-bin/media/uploadimg?' + utils.obj2Params(params),
+					url: `${url}?access_token=${token}`,
 					headers: {
 						"Content-Type": "multipart/form-data",
 					},

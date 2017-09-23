@@ -1,5 +1,5 @@
 var request = require('request')
-var getToken = require('../common/token')
+var Token = require('../common/token')
 var utils = require('../common/utils')
 var assign = require('object-assign')
 
@@ -9,7 +9,7 @@ module.exports = function (app) {
 		var params = req.body
 
 		if(!utils.isEmpty(params)) {
-			getToken(function(token) {
+			Token.getToken(function(token) {
 				var url = 'https://api.weixin.qq.com/cgi-bin/material/add_news'
 				var data = {
 					articles: [
@@ -50,7 +50,7 @@ module.exports = function (app) {
 		var params = req.body || {}
 		var type = params.type || 'news'
 
-		getToken(function(token) {
+		Token.getToken(function(token) {
 			var url = 'https://api.weixin.qq.com/cgi-bin/material/batchget_material'
 			var data = {
 				access_token: token,

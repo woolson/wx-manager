@@ -3,31 +3,39 @@ var path = require('path')
 var fs = require('fs')
 var utils = require('./utils')
 
-module.exports = function (callback) {
-	var token = require('./token.json') || {}
-	var currTime = utils.getTimeStamp().second
-	var isExpired = !token.timestamp || currTime - token.timestamp > 7100
+module.exports = {
+	getToken: function (callback) {
+		var tokenPath = path.join(__dirname, './token.json')
+		var token = JSON.parse(fs.readFileSync(tokenPath))
+		var currTime = utils.getTimeStamp().second
+		var isExpired = currTime > token.timestamp
 
-	if(isExpired) {
-		// 这样可以热更新
-		var config = require('./config')
-		var param = {
-			grant_type: 'client_credential',
-			appid: config.appId,
-			secret: config.appSecret,
+		if(isExpired) fetchToken(callback)
+		else callback(token.value)
+	},
+	updateToken: function (callback) {
+		fetchToken(callback)
+	},
+}
+
+function fetchToken (callback) {
+	var config = require('./config')
+	var param = {
+		grant_type: 'client_credential',
+		appid: config.appId,
+		secret: config.secret,
+	}
+	var paramStr = utils.obj2Params(param)
+	var url = `https://api.weixin.qq.com/cgi-bin/token?${paramStr}`
+
+	request(url, function(err, res, body) {
+		// 记录获取token时间，两小时后过期重取
+		var newToken = {
+			value: JSON.parse(body).access_token,
+			timestamp: utils.getTimeStamp().second + 7200,
 		}
-		var paramStr = utils.obj2Params(param)
-		var url = `https://api.weixin.qq.com/cgi-bin/token?${paramStr}`
-		request(url, function(err, res, body) {
-			// 记录获取token时间，两小时后过期重取
-			var newToken = {
-				value: JSON.parse(body).access_token,
-				timestamp: utils.getTimeStamp().second,
-			}
-			var filePath = path.join(__dirname, 'token.json')
-			console.log(filePath);
-			fs.writeFileSync(filePath, JSON.stringify(newToken))
-			callback(newToken.value)
-		})
-	}else callback(token.value)
+		var filePath = path.join(__dirname, 'token.json')
+		fs.writeFileSync(filePath, JSON.stringify(newToken))
+		callback(newToken.value)
+	})
 }
