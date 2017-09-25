@@ -5,6 +5,9 @@
 ### TODO
 
 - clear history
+- refresh access token
+- error information tips
+- error handle methods
 
 ### Functions
 
