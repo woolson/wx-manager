@@ -9,9 +9,4 @@ module.exports = function (app) {
 	images(app)
 	material(app)
 	setting(app)
-
-	app.get('*', (req, res) => {
-		var indexHtml = path.join(__dirname, '../../web/index.html')
-		res.sendFile(indexHtml)
-	})
 }
