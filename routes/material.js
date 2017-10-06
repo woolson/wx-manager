@@ -4,7 +4,7 @@ var utils = require('../common/utils')
 
 // add article info
 module.exports = function (app) {
-	app.get('/api/material/get', function(req, res, next) {
+	app.get('/wx-manager/api/material/get', function(req, res, next) {
 		var params = req.query || {}
 		var type = params.type || 'news'
 

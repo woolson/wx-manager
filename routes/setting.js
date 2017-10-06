@@ -7,7 +7,7 @@ var configPath = path.join(__dirname, '../common/config.json')
 var appsPath = path.join(__dirname, '../common/apps.json')
 
 module.exports = function (app) {
-	app.get('/api/app/get', function(req, res) {
+	app.get('/wx-manager/api/app/get', function(req, res) {
 		var currentApp = JSON.parse(fs.readFileSync(configPath))
 		var apps = JSON.parse(fs.readFileSync(appsPath))
 		var params = {
@@ -25,7 +25,7 @@ module.exports = function (app) {
 		res.send(params)
 	})
 
-	app.post('/api/app/set', function(req, res) {
+	app.post('/wx-manager/api/app/set', function(req, res) {
 		var data = req.body
 		var apps = JSON.parse(fs.readFileSync(appsPath))
 		var appInfo = apps[data.id]
@@ -37,7 +37,7 @@ module.exports = function (app) {
 		})
 	})
 
-	app.post('/api/app/add', function(req, res) {
+	app.post('/wx-manager/api/app/add', function(req, res) {
 		var data = req.body
 		var apps = JSON.parse(fs.readFileSync(appsPath))
 		data.id = apps.length
@@ -49,7 +49,7 @@ module.exports = function (app) {
 		})
 	})
 
-	app.post('/api/app/delete', function(req, res) {
+	app.post('/wx-manager/api/app/delete', function(req, res) {
 		var index = req.body.index
 		var apps = JSON.parse(fs.readFileSync(appsPath))
 		apps.splice(index, 1)
@@ -60,7 +60,7 @@ module.exports = function (app) {
 		})
 	})
 
-	app.post('/api/app/clear', function(req, res) {
+	app.post('/wx-manager/api/app/clear', function(req, res) {
 		Token.getToken(function(token) {
 			var url = 'https://api.weixin.qq.com/cgi-bin/clear_quota'
 			var params = {

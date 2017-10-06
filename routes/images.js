@@ -8,7 +8,7 @@ var upload = multer({dest: './images/'})
 
 // upload images list
 module.exports = function (app) {
-	app.post('/api/image/add', upload.fields([{name: 'media'}]), function(req, res, next) {
+	app.post('/wx-manager/api/image/add', upload.fields([{name: 'media'}]), function(req, res, next) {
 		var isForever = req.body.forever ? req.body.forever === 'true' : false
 		var files = req.files || {}
 		var images = files.media || []
@@ -67,7 +67,7 @@ module.exports = function (app) {
 		})
 	})
 
-	app.get('/api/image/remove', function(req, res, next) {
+	app.get('/wx-manager/api/image/remove', function(req, res, next) {
 		res.send({
 			msg: 'comming soon',
 			success: false,

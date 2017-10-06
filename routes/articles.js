@@ -5,7 +5,7 @@ var assign = require('object-assign')
 
 // add article info
 module.exports = function (app) {
-	app.post('/api/article/add', function(req, res, next) {
+	app.post('/wx-manager/api/article/add', function(req, res, next) {
 		var params = req.body
 
 		if(!utils.isEmpty(params)) {
@@ -46,7 +46,7 @@ module.exports = function (app) {
 		}
 	})
 
-	app.get('/api/article/getAll', function(req, res, next) {
+	app.get('/wx-manager/api/article/getAll', function(req, res, next) {
 		var params = req.body || {}
 		var type = params.type || 'news'
 
