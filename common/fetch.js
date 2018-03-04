@@ -1,5 +1,5 @@
 import axios from 'axios'
-import { obj2Params, getType } from './utils'
+import { getType } from './utils'
 
 export const post = (url, data, options) => {
 	return common('POST', url, data, options)

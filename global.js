@@ -58,14 +58,15 @@ export async function reqFilter (ctx, next) {
 			errMessage = e.toString()
 			error = e.stack.toString()
 		} else {
-			errMessage = error = e
+			if (e.error) errMessage = error = e.error
+			else errMessage = error = e
 		}
 
 		// 如果返回的错误信息是Accesstoken过期则刷新一下
 		if (!isErrType && e.errcode === 40001) {
 			const appId = ctx.cookies.get('appId')
 			if (appId) {
-				const app = new Wechat({appId: query.appId})
+				const app = new Wechat({appId})
 				const newToken = await app.fetchToken()
 				console.log(`AccessToken已过期，更新成功：${newToken}`)
 			}
@@ -76,7 +77,8 @@ export async function reqFilter (ctx, next) {
 		else console.error(error)
 		// 统一错误返回信息
 		ctx.body = {
-			status: 0,
 			error: errMessage,
-		}	}
+			success: false,
+		}
+	}
 }

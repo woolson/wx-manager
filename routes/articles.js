@@ -12,7 +12,6 @@ router.get('/getAll', Setting.getAppList)
 
 export default router
 
-
 // var request = require('request')
 // var Token = require('../common/token')
 // var utils = require('../common/utils')

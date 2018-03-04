@@ -9,7 +9,6 @@ import { post } from '../common/fetch'
 const APPS_PATH = path.join(__dirname, '../db/apps.json')
 
 export async function getAppList (ctx, next) {
-	const { query } = ctx.request
 	const apps = JSON.parse(fs.readFileSync(APPS_PATH))
 	ctx.body = Object.keys(apps).map(item => {
 		const { name, appId } = apps[item]
