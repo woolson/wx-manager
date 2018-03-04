@@ -1,0 +1,45 @@
+[2017-11-20 14:09:58.077] [INFO] wechat - GET /wechat/getAccessToken?appId=wxdccfe9df004fb45a
+[2017-11-20 14:09:58.273] [INFO] wechat - 获取到的新AccessToken: {"access_token":"EMazdmFYPcASFdiBVKVolc1-vUywYlUz0oS8fQNcGhhC3EJT2BRBT8qCHEFXIPZRqigQoiX7wDoXasBz2t7SxVfMk31RfDbn0LuROq4dxpNnjEVqeilsiircaIhQ01UKDUUjAIALCC","expires_in":7200}
+[2017-11-20 14:10:18.089] [INFO] wechat - GET /wechat/getAccessToken?appId=wxdccfe9df004fb45a
+[2017-11-20 14:10:27.792] [INFO] wechat - GET /wechat/getAccessToken?appId=wxdccfe9df004fb45a
+[2017-11-20 14:10:29.089] [INFO] wechat - GET /wechat/getAccessToken?appId=wxdccfe9df004fb45a
+[2017-11-20 14:10:29.733] [INFO] wechat - GET /wechat/getAccessToken?appId=wxdccfe9df004fb45a
+[2017-11-20 14:10:30.246] [INFO] wechat - GET /wechat/getAccessToken?appId=wxdccfe9df004fb45a
+[2017-11-20 14:10:30.752] [INFO] wechat - GET /wechat/getAccessToken?appId=wxdccfe9df004fb45a
+[2017-11-20 14:10:31.202] [INFO] wechat - GET /wechat/getAccessToken?appId=wxdccfe9df004fb45a
+[2017-11-20 14:10:31.640] [INFO] wechat - GET /wechat/getAccessToken?appId=wxdccfe9df004fb45a
+[2017-11-20 14:10:32.109] [INFO] wechat - GET /wechat/getAccessToken?appId=wxdccfe9df004fb45a
+[2017-11-20 14:10:32.438] [INFO] wechat - GET /wechat/getAccessToken?appId=wxdccfe9df004fb45a
+[2017-11-20 14:11:29.418] [INFO] wechat - GET /wechat/getAccessToken?appId=wxdccfe9df004fb45a
+[2017-11-20 14:12:41.750] [INFO] wechat - GET /wechat/getAccessToken?appId=wxdccfe9df004fb45a
+[2017-11-20 14:12:57.855] [INFO] wechat - GET /wechat/getAccessToken?appId=wxdccfe9df004fb45a
+[2017-11-20 14:13:24.584] [INFO] wechat - GET /wechat/getAccessToken?appId=wxdccfe9df004fb45a
+[2017-11-20 14:14:05.729] [INFO] wechat - GET /wechat/getAccessToken?appId=wxdccfe9df004fb45a
+[2017-11-20 15:32:00.095] [INFO] wechat - GET /wechat/getJsApiSignature?appId=wxdccfe9df004fb45a
+[2017-11-20 15:32:16.408] [INFO] wechat - GET /wechat/getJsApiSignature?appId=wxdccfe9df004fb45a&url=http://localhost:3000/wechat/getJsApiSignature
+[2017-11-20 15:34:14.837] [INFO] wechat - GET /wechat/getJsApiSignature?appId=wxdccfe9df004fb45a&url=http://localhost:3000/wechat/getJsApiSignature
+[2017-11-20 15:38:03.566] [INFO] wechat - GET /wechat/getJsApiSignature?appId=wxdccfe9df004fb45a&url=http://localhost:3000/wechat/getJsApiSignature
+[2017-11-20 15:38:13.979] [INFO] wechat - GET /wechat/getJsApiSignature?appId=wxdccfe9df004fb45a&url=http://localhost:3000/wechat/getJsApiSignature
+[2017-11-20 18:06:10.239] [INFO] wechat - GET /wechat/getUserInfo
+[2017-11-20 18:07:08.633] [INFO] wechat - GET /wechat/getUserInfo
+[2017-11-20 18:08:09.016] [INFO] wechat - GET /wechat/getAccessToken?appId=wxdccfe9df004fb45a
+[2017-11-20 18:08:27.953] [INFO] wechat - GET /wechat/getAccessToken?appId=wxdccfe9df004fb45a
+[2017-11-20 18:08:40.047] [INFO] wechat - GET /wechat/getAccessToken?appId=wxdccfe9df004fb45a
+[2017-11-20 18:08:40.231] [INFO] wechat - 获取到的新AccessToken: {"access_token":"r7l7g4FaHa-Jtzy1TjxLmtbpLlg9h641uCRnrwPC_fUEzgx9WJsHhsB_Dvl5_rcqW-bktE18yfX6MlDx1Z64Lik_5pybJRtco5uL6fuORQEIDWbAIABWP","expires_in":7200}
+[2017-11-20 18:09:24.248] [INFO] wechat - GET /wechat/getJsApiSignature?appId=wxdccfe9df004fb45a&url=%20http://localhost:3000/wechat/getJsApiSignature
+[2017-11-20 18:09:52.462] [INFO] wechat - GET /wechat/getJsApiSignature?appId=wxdccfe9df004fb45a&url=%20http://localhost:3000/wechat/getJsApiSignature
+[2017-11-20 18:11:22.123] [INFO] wechat - GET /wechat/getJsApiSignature?appId=wxdccfe9df004fb45a&url=%20http://localhost:3000/wechat/getJsApiSignature
+[2017-11-20 18:11:59.002] [INFO] wechat - GET /wechat/getJsApiSignature?appId=wxdccfe9df004fb45a&url=%20http://localhost:3000/wechat/getJsApiSignature
+[2017-11-20 18:12:20.033] [INFO] wechat - GET /wechat/getJsApiSignature?appId=wxdccfe9df004fb45a&url=%20http://localhost:3000/wechat/getJsApiSignature
+[2017-11-20 18:27:06.227] [ERROR] wechat - server error: {}
+[2017-11-20 18:27:43.310] [ERROR] wechat - server error: {}
+[2017-11-20 18:28:48.873] [INFO] wechat - GET /wechat/getJsApiSignature?appId=wxdccfe9df004fb45a
+[2017-11-20 18:28:48.884] [ERROR] wechat - server error: {}
+[2017-11-20 18:30:44.612] [INFO] wechat - GET /wechat/getAccessToken?appId=wxdccfe9df004fb45a
+[2017-11-20 18:30:45.053] [ERROR] wechat - server error: {"error":{"errcode":40013,"errmsg":"invalid appid hint: [rXDXIa0844e575]"},"status":0}
+[2017-11-20 18:32:00.630] [INFO] wechat - GET /wechat/getAccessToken?appId=wxdccfe9df004fb45a
+[2017-11-20 18:32:23.387] [INFO] wechat - GET /wechat/getAccessToken?appId=wxdccfe9df004fb45a
+[2017-11-20 18:34:05.048] [INFO] wechat - GET /wechat/getAccessToken?appId=wxdccfe9df004fb45a
+[2017-11-20 18:37:48.054] [INFO] wechat - GET /wechat/getAccessToken?appId=wxdccfe9df004fb45a
+[2017-11-20 18:38:06.986] [INFO] wechat - GET /wechat/getAccessToken?appId=wxdccfe9df004fb45a
+[2017-11-20 18:39:35.828] [INFO] wechat - GET /wechat/getAccessToken?appId=wxdccfe9df004fb45a

@@ -1,0 +1,8 @@
+[2018-01-21T16:52:54.218] [INFO] wechat - GET /wx-manager/api/material/get?type=image
+[2018-01-21T16:53:01.182] [INFO] wechat - GET /wx-manager/api/app/get
+[2018-01-21T16:53:08.521] [INFO] wechat - GET /wx-manager/api/app/get
+[2018-01-21T16:53:58.599] [INFO] wechat - GET /wx-manager/api/app/get
+[2018-01-21T16:54:11.440] [INFO] wechat - GET /wx-manager/api/app/get
+[2018-01-21T16:55:07.051] [INFO] wechat - GET /wx-manager/api/app/get
+[2018-01-21T16:56:02.429] [INFO] wechat - GET /wx-manager/api/app/get
+[2018-01-21T16:57:24.188] [INFO] wechat - GET /wx-manager/api/app/get

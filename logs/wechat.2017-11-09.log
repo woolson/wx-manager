@@ -1,0 +1,72 @@
+[2017-11-09 11:21:13.616] [INFO] wechat - GET /wechat/getJsApiSignature?appId=wxb8617df391f435cf&url=https%3A%2F%2Fshinho.com%2Fwechat%2FgetCode
+[2017-11-09 11:23:37.207] [INFO] wechat - GET /wechat/getJsApiSignature?appId=wxb8617df391f435cf&url=https%3A%2F%2Fshinho.com%2Fwechat%2FgetCode
+[2017-11-09 11:23:40.892] [INFO] wechat - GET /wechat/getJsApiSignature?appId=wxb8617df391f435cf&url=https%3A%2F%2Fshinho.com%2Fwechat%2FgetCode
+[2017-11-09 11:23:44.229] [INFO] wechat - GET /wechat/getJsApiSignature?appId=wxb8617df391f435cf&url=https%3A%2F%2Fshinho.com%2Fwechat%2FgetCode
+[2017-11-09 11:38:39.808] [INFO] wechat - GET /wechat/getUserInfo?code=071zI0Kb0hzVct1qUhKb08YXJb0zI0Kc&state=wxb8617df391f435cf
+[2017-11-09 11:38:40.025] [INFO] wechat - 用Code获取用户openId成功. {"access_token":"hwxN3BpYSggqCi_43479zGvFkXIzP2uGnWoW5HDFzoAfHFCZ1wlenkPt9-ghaHiSr8DwxfbRPWGDz2zViLHizA","expires_in":7200,"refresh_token":"qfx3ijk4fBMAiq-Otrb3ycrGORkiDOnpqg9DJLsAI1rJCkJJsKCBfQCmhLrY1xIAcCSyJ0St7R8qmhh-_us0Og","openid":"oxB6CwqRcMU41uwfpZ-xOOMf-NGY","scope":"snsapi_base"}
+[2017-11-09 11:38:40.158] [INFO] wechat - 获取用户信息成功. {"subscribe":1,"openid":"oxB6CwqRcMU41uwfpZ-xOOMf-NGY","nickname":"Woolson ⁷","sex":1,"language":"zh_CN","city":"","province":"","country":"中国","headimgurl":"http://wx.qlogo.cn/mmopen/bHgIusRg3N5VeFjdFriaSY2ck31ElFQWpRQXfdibr2CYB2w8Gb9V6dWMws9CKSBhWW3MLENEmUWicd6v8Wk9V2Nz2YIeEpleONv/0","subscribe_time":1510126797,"remark":"","groupid":0,"tagid_list":[]}
+[2017-11-09 11:38:40.173] [INFO] wechat - GET /wechat/incomeUser?subscribe=1&openid=oxB6CwqRcMU41uwfpZ-xOOMf-NGY&nickname=Woolson%20%E2%81%B7&sex=1&language=zh_CN&city=&province=&country=%E4%B8%AD%E5%9B%BD&headimgurl=http://wx.qlogo.cn/mmopen/bHgIusRg3N5VeFjdFriaSY2ck31ElFQWpRQXfdibr2CYB2w8Gb9V6dWMws9CKSBhWW3MLENEmUWicd6v8Wk9V2Nz2YIeEpleONv/0&subscribe_time=1510126797&remark=&groupid=0&tagid_list=
+[2017-11-09 17:27:40.221] [INFO] wechat - GET /wechat/getAllUsers
+[2017-11-09 17:27:40.225] [ERROR] wechat - server error: {}
+[2017-11-09 17:27:40.595] [INFO] wechat - GET /favicon.ico
+[2017-11-09 17:28:00.807] [INFO] wechat - GET /wechat/getAllUsers
+[2017-11-09 17:28:00.812] [ERROR] wechat - server error: {}
+[2017-11-09 17:29:07.647] [INFO] wechat - GET /wechat/getAllUsers
+[2017-11-09 17:39:49.559] [INFO] wechat - GET /wechat/getAllUsers
+[2017-11-09 17:50:44.606] [INFO] wechat - GET /wechat/getAllUsers
+[2017-11-09 17:51:51.752] [INFO] wechat - GET /wechat/getAllUsers
+[2017-11-09 17:57:00.328] [INFO] wechat - GET /wechat/getAllUsers
+[2017-11-09 17:57:26.505] [INFO] wechat - GET /wechat/getAllUsers
+[2017-11-09 17:57:44.297] [INFO] wechat - GET /wechat/getAllUsers
+[2017-11-09 17:58:40.289] [INFO] wechat - GET /wechat/getAllUsers
+[2017-11-09 17:59:22.024] [INFO] wechat - GET /wechat/getAllUsers
+[2017-11-09 17:59:38.210] [INFO] wechat - GET /wechat/getAllUsers
+[2017-11-09 18:01:56.886] [INFO] wechat - GET /wechat/getAllUsers
+[2017-11-09 18:06:00.465] [INFO] wechat - GET /wechat/getAllUsers
+[2017-11-09 18:06:59.030] [INFO] wechat - GET /wechat/getAllUsers
+[2017-11-09 18:10:12.774] [INFO] wechat - GET /wechat/getAllUsers
+[2017-11-09 18:10:15.443] [INFO] wechat - GET /wechat/getAllUsers
+[2017-11-09 18:16:14.742] [INFO] wechat - GET /wechat/getAllUsers
+[2017-11-09 18:23:17.817] [INFO] wechat - GET /wechat/getAllUsers
+[2017-11-09 18:23:19.287] [INFO] wechat - GET /wechat/getAllUsers
+[2017-11-09 18:32:09.547] [INFO] wechat - GET /wechat/getAllUsers
+[2017-11-09 18:32:54.183] [INFO] wechat - GET /wechat/getAllUsers
+[2017-11-09 18:39:09.103] [INFO] wechat - POST /wechat/addUser
+[2017-11-09 18:39:09.105] [INFO] wechat - Request data: [object Object]
+[2017-11-09 18:39:09.107] [ERROR] wechat - server error: {}
+[2017-11-09 18:40:02.515] [INFO] wechat - POST /wechat/addUser
+[2017-11-09 18:40:02.517] [INFO] wechat - Request data: {"openid":"oxB6CwqRcMU41uwfpZ-xOOMf-NGY","nickname":"Woolson","sex":"1","language":"zh_CN","city":"","province":"","country":"中国","headimgurl":"http://wx.qlogo.cn/mmopen/bHgIusRg3N5VeFjdFriaSY2ck31ElFQWpRQXfdibr2CYB2w8Gb9V6dWMws9CKSBhWW3MLENEmUWicd6v8Wk9V2Nz2YIeEpleONv/0","subscribe_time":"1510126797","remark":"","groupid":"0","tagid_list":"[]","updateTime":"2017-11-09 11:38:40","subscribe":"1"}
+[2017-11-09 18:40:02.519] [ERROR] wechat - server error: {}
+[2017-11-09 18:40:35.692] [INFO] wechat - POST /wechat/addUser
+[2017-11-09 18:40:35.694] [INFO] wechat - Request data: {"openid":"oxB6CwqRcMU41uwfpZ-xOOMf-NGY","nickname":"Woolson","sex":"1","language":"zh_CN","city":"","province":"","country":"中国","headimgurl":"http://wx.qlogo.cn/mmopen/bHgIusRg3N5VeFjdFriaSY2ck31ElFQWpRQXfdibr2CYB2w8Gb9V6dWMws9CKSBhWW3MLENEmUWicd6v8Wk9V2Nz2YIeEpleONv/0","subscribe_time":"1510126797","remark":"","groupid":"0","tagid_list":"[]","updateTime":"2017-11-09 11:38:40","subscribe":"1"}
+[2017-11-09 18:40:35.710] [ERROR] wechat - server error: {}
+[2017-11-09 18:43:53.153] [INFO] wechat - POST /wechat/addUser
+[2017-11-09 18:43:53.155] [INFO] wechat - Request data: {"openid":"oxB6CwqRcMU41uwfpZ-xOOMf-NGY","nickname":"Woolson","sex":"1","language":"zh_CN","city":"","province":"","country":"中国","headimgurl":"http://wx.qlogo.cn/mmopen/bHgIusRg3N5VeFjdFriaSY2ck31ElFQWpRQXfdibr2CYB2w8Gb9V6dWMws9CKSBhWW3MLENEmUWicd6v8Wk9V2Nz2YIeEpleONv/0","subscribe_time":"1510126797","remark":"","groupid":"0","tagid_list":"[]","updateTime":"2017-11-09 11:38:40","subscribe":"1"}
+[2017-11-09 18:43:53.165] [ERROR] wechat - server error: {}
+[2017-11-09 18:45:32.055] [INFO] wechat - POST /wechat/addUser
+[2017-11-09 18:45:32.057] [INFO] wechat - Request data: {"openid":"oxB6CwqRcMU41uwfpZ-xOOMf-NGY","nickname":"Woolson","sex":"1","language":"zh_CN","city":"","province":"","country":"中国","headimgurl":"http://wx.qlogo.cn/mmopen/bHgIusRg3N5VeFjdFriaSY2ck31ElFQWpRQXfdibr2CYB2w8Gb9V6dWMws9CKSBhWW3MLENEmUWicd6v8Wk9V2Nz2YIeEpleONv/0","subscribe_time":"1510126797","remark":"","groupid":"0","tagid_list":"[]","updateTime":"2017-11-09 11:38:40","subscribe":"1"}
+[2017-11-09 18:45:32.080] [ERROR] wechat - server error: {}
+[2017-11-09 18:46:57.341] [INFO] wechat - POST /wechat/addUser
+[2017-11-09 18:46:57.343] [INFO] wechat - Request data: {"openid":"oxB6CwqRcMU41uwfpZ-xOOMf-NGY","nickname":"Woolson","sex":"1","language":"zh_CN","city":"","province":"","country":"中国","headimgurl":"http://wx.qlogo.cn/mmopen/bHgIusRg3N5VeFjdFriaSY2ck31ElFQWpRQXfdibr2CYB2w8Gb9V6dWMws9CKSBhWW3MLENEmUWicd6v8Wk9V2Nz2YIeEpleONv/0","subscribe_time":"1510126797","remark":"","groupid":"0","tagid_list":"[]","updateTime":"2017-11-09 11:38:40","subscribe":"1"}
+[2017-11-09 18:46:57.367] [ERROR] wechat - server error: {}
+[2017-11-09 18:48:07.106] [INFO] wechat - POST /wechat/addUser
+[2017-11-09 18:48:07.108] [INFO] wechat - Request data: {"openid":"oxB6CwqRcMU41uwfpZ-xOOMf-NGY","nickname":"Woolson","sex":"1","language":"zh_CN","city":"","province":"","country":"中国","headimgurl":"http://wx.qlogo.cn/mmopen/bHgIusRg3N5VeFjdFriaSY2ck31ElFQWpRQXfdibr2CYB2w8Gb9V6dWMws9CKSBhWW3MLENEmUWicd6v8Wk9V2Nz2YIeEpleONv/0","subscribe_time":"1510126797","remark":"","groupid":"0","tagid_list":"[]","updateTime":"2017-11-09 11:38:40","subscribe":"1"}
+[2017-11-09 18:48:07.134] [ERROR] wechat - server error: {}
+[2017-11-09 18:50:29.964] [INFO] wechat - POST /wechat/addUser
+[2017-11-09 18:50:29.965] [INFO] wechat - Request data: {"openid":"oxB6CwqRcMU41uwfpZ-xOOMf-NGY","nickname":"Woolson","sex":"1","language":"zh_CN","city":"","province":"","country":"中国","headimgurl":"http://wx.qlogo.cn/mmopen/bHgIusRg3N5VeFjdFriaSY2ck31ElFQWpRQXfdibr2CYB2w8Gb9V6dWMws9CKSBhWW3MLENEmUWicd6v8Wk9V2Nz2YIeEpleONv/0","subscribe_time":"1510126797","remark":"","groupid":"0","tagid_list":"[]","updateTime":"2017-11-09 11:38:40","subscribe":"1"}
+[2017-11-09 18:50:29.994] [ERROR] wechat - server error: {}
+[2017-11-09 18:50:55.089] [INFO] wechat - POST /wechat/addUser
+[2017-11-09 18:50:55.090] [INFO] wechat - Request data: {"openid":"oxB6CwqRcMU41uwfpZ-xOOMf-NGY","nickname":"Woolson","sex":"1","language":"zh_CN","city":"","province":"","country":"中国","headimgurl":"http://wx.qlogo.cn/mmopen/bHgIusRg3N5VeFjdFriaSY2ck31ElFQWpRQXfdibr2CYB2w8Gb9V6dWMws9CKSBhWW3MLENEmUWicd6v8Wk9V2Nz2YIeEpleONv/0","subscribe_time":"1510126797","remark":"","groupid":"0","tagid_list":"[]","updateTime":"2017-11-09 11:38:40","subscribe":"1"}
+[2017-11-09 18:50:55.100] [ERROR] wechat - server error: {}
+[2017-11-09 18:52:05.715] [INFO] wechat - POST /wechat/addUser
+[2017-11-09 18:52:05.717] [INFO] wechat - Request data: {"openid":"oxB6CwqRcMU41uwfpZ-xOOMf-NGY","nickname":"Woolson","sex":"1","language":"zh_CN","city":"","province":"","country":"中国","headimgurl":"http://wx.qlogo.cn/mmopen/bHgIusRg3N5VeFjdFriaSY2ck31ElFQWpRQXfdibr2CYB2w8Gb9V6dWMws9CKSBhWW3MLENEmUWicd6v8Wk9V2Nz2YIeEpleONv/0","subscribe_time":"1510126797","remark":"","groupid":"0","tagid_list":"[]","updateTime":"2017-11-09 11:38:40","subscribe":"1"}
+[2017-11-09 18:52:05.740] [ERROR] wechat - server error: {}
+[2017-11-09 18:52:39.331] [INFO] wechat - POST /wechat/addUser
+[2017-11-09 18:52:39.332] [INFO] wechat - Request data: {"openid":"oxB6CwqRcMU41uwfpZ-xOOMf-NGY","nickname":"Woolson","sex":"1","language":"zh_CN","city":"","province":"","country":"中国","headimgurl":"http://wx.qlogo.cn/mmopen/bHgIusRg3N5VeFjdFriaSY2ck31ElFQWpRQXfdibr2CYB2w8Gb9V6dWMws9CKSBhWW3MLENEmUWicd6v8Wk9V2Nz2YIeEpleONv/0","subscribe_time":"1510126797","remark":"","groupid":"0","tagid_list":"[]","updateTime":"2017-11-09 11:38:40","subscribe":"1"}
+[2017-11-09 18:52:39.363] [ERROR] wechat - server error: {}
+[2017-11-09 18:53:11.619] [INFO] wechat - POST /wechat/addUser
+[2017-11-09 18:53:11.620] [INFO] wechat - Request data: {"openid":"oxB6CwqRcMU41uwfpZ-xOOMf-NGY","nickname":"Woolson","sex":"1","language":"zh_CN","city":"","province":"","country":"中国","headimgurl":"http://wx.qlogo.cn/mmopen/bHgIusRg3N5VeFjdFriaSY2ck31ElFQWpRQXfdibr2CYB2w8Gb9V6dWMws9CKSBhWW3MLENEmUWicd6v8Wk9V2Nz2YIeEpleONv/0","subscribe_time":"1510126797","remark":"","groupid":"0","tagid_list":"","updateTime":"2017-11-09 11:38:40","subscribe":"1"}
+[2017-11-09 18:53:11.625] [ERROR] wechat - server error: {}
+[2017-11-09 18:53:46.626] [INFO] wechat - POST /wechat/addUser
+[2017-11-09 18:53:46.628] [INFO] wechat - Request data: {"openid":"oxB6CwqRcMU41uwfpZ-xOOMf-NGY","nickname":"Woolson","sex":"1","language":"zh_CN","city":"","province":"","country":"中国","headimgurl":"http://wx.qlogo.cn/mmopen/bHgIusRg3N5VeFjdFriaSY2ck31ElFQWpRQXfdibr2CYB2w8Gb9V6dWMws9CKSBhWW3MLENEmUWicd6v8Wk9V2Nz2YIeEpleONv/0","subscribe_time":"1510126797","remark":"","groupid":"0","tagid_list":"","updateTime":"2017-11-09 11:38:40","subscribe":"1"}
+[2017-11-09 18:54:03.296] [INFO] wechat - GET /wechat/getAllUsers

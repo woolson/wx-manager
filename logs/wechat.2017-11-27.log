@@ -1,0 +1,24 @@
+[2017-11-27 15:42:58.448] [INFO] wechat - GET /wechat/authorize?appId=wxb8617df391f435cf&msg=test_params_messge&succ=true
+[2017-11-27 15:42:58.491] [INFO] wechat - GET /favicon.ico
+[2017-11-27 15:43:37.410] [INFO] wechat - GET /wechat/authorize?appId=wxb8617df391f435cf&msg=test_params_messge&succ=true
+[2017-11-27 15:43:37.463] [INFO] wechat - GET /favicon.ico
+[2017-11-27 15:44:30.141] [INFO] wechat - GET /wechat/authorize?appId=wxb8617df391f435cf&msg=test_params_messge&succ=true
+[2017-11-27 15:44:30.196] [INFO] wechat - GET /favicon.ico
+[2017-11-27 15:45:06.205] [INFO] wechat - GET /wechat/authorize?appId=wxb8617df391f435cf&msg=test_params_messge&succ=true
+[2017-11-27 15:45:06.262] [INFO] wechat - GET /favicon.ico
+[2017-11-27 15:45:27.567] [INFO] wechat - GET /wechat/authorize?appId=wxb8617df391f435cf&msg=test_params_messge&succ=true
+[2017-11-27 15:45:27.627] [INFO] wechat - GET /favicon.ico
+[2017-11-27 15:46:49.951] [INFO] wechat - GET /wechat/authorize?appId=wxb8617df391f435cf&msg=test_params_messge&succ=true
+[2017-11-27 15:46:50.007] [INFO] wechat - GET /favicon.ico
+[2017-11-27 15:47:19.354] [INFO] wechat - GET /wechat/authorize?appId=wxb8617df391f435cf&msg=test_params_messge&succ=true
+[2017-11-27 15:47:41.327] [INFO] wechat - GET /wechat/authorize?appId=wxb8617df391f435cf&msg=test_params_messge&succ=true
+[2017-11-27 15:59:57.760] [INFO] wechat - GET /wechat/authorize?appId=wxb8617df391f435cf&msg=test_params_messge&succ=true
+[2017-11-27 16:00:55.182] [INFO] wechat - GET /wechat/getUserInfo?code=0813HDmk1ou05l0QsZkk1Guwmk13HDm3&state=319b2aa35a
+[2017-11-27 16:00:55.371] [INFO] wechat - 用Code获取用户openId成功. {"access_token":"4_vhA6-UKiNO2ckGgeN1zxj9CgVEGCkT-n8P6_YHijV79-lGmHJkTBWGAZgFw8THm4PADOPQ0qedUoWm1G8N1rww","expires_in":7200,"refresh_token":"4_BTfAU_fQQiWOznTAdtt98mYzxk_eirq0A0PbTA84I5oYEbhIFkYxzcxJijOEgvHS_mpKYMmlWpgGGqpSLoP4ZA","openid":"oxB6CwqRcMU41uwfpZ-xOOMf-NGY","scope":"snsapi_base"}
+[2017-11-27 16:00:55.500] [INFO] wechat - 获取到的新AccessToken: G_DnsLtbEwddABYcizNrGTSoJpNquCpYwGAy4D67H_O3D7ESr996OWzNtHrP190XvRl10ZHFqa-YHGq77XDEHZspSE3aCKrl33MttJuKseTzZtzHXysACaVfJkYytZTqOLJaAHAJGE
+[2017-11-27 16:00:55.608] [INFO] wechat - 获取用户信息成功. {"subscribe":1,"openid":"oxB6CwqRcMU41uwfpZ-xOOMf-NGY","nickname":"Woolson ⁷","sex":1,"language":"zh_CN","city":"","province":"","country":"中国","headimgurl":"http://wx.qlogo.cn/mmopen/bHgIusRg3N5VeFjdFriaSY2ck31ElFQWpRQXfdibr2CYB2w8Gb9V6dWMws9CKSBhWW3MLENEmUWicd6v8Wk9V2Nz2YIeEpleONv/0","subscribe_time":1510554311,"remark":"","groupid":0,"tagid_list":[]}
+[2017-11-27 16:25:33.913] [INFO] wechat - GET /wechat/getUserByOpenId?openId=oxB6CwqRcMU41uwfpZ-xOOMf-NGY
+[2017-11-27 16:26:33.370] [INFO] wechat - GET /wechat/getUserByOpenId?openId=oxB6CwqRcMU41uwfpZ-xOOMf-NGY
+[2017-11-27 16:26:43.314] [INFO] wechat - GET /wechat/getUserByOpenId?openId=oxB6CwqRcMU41uwfpZ-xOOMf-NGY
+[2017-11-27 16:27:25.770] [INFO] wechat - GET /wechat/getUserByOpenId?openId=oxB6CwqRcMU41uwfpZ-xOOMf-NGY
+[2017-11-27 18:53:29.401] [INFO] wechat - GET /wechat/getAccessToken?appId=wxb8617df391f435cf

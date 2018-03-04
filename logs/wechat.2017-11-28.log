@@ -1,0 +1,61 @@
+[2017-11-28 10:02:03.166] [INFO] wechat - GET /wechat/getAccessToken?appId=wxb8617df391f435cf
+[2017-11-28 10:02:03.753] [INFO] wechat - 获取到的新AccessToken: tygqAW08CzRyx5KsYNiaj1VRCj-D2ap4sd5TCPp_zUNEjR6yeZA7YlzVTZaqNe4yiL4vENA0fsaimvhvgcmKyvMADWkaGhyM112oZR2GWWb95tXc7yIaSdNS1x9EfkUHCBXeADAQPL
+[2017-11-28 10:09:48.735] [ERROR] wechat - server error: ReferenceError: query is not defined
+    at /Users/woolson/Documents/ShinHo/server/wechatApi/global.js:21:4
+    at Generator.next (<anonymous>)
+    at step (/Users/woolson/Documents/ShinHo/server/wechatApi/global.js:76:191)
+    at /Users/woolson/Documents/ShinHo/server/wechatApi/global.js:76:437
+    at new Promise (<anonymous>)
+    at /Users/woolson/Documents/ShinHo/server/wechatApi/global.js:76:99
+    at reqFilter (/Users/woolson/Documents/ShinHo/server/wechatApi/global.js:60:15)
+    at dispatch (/Users/woolson/Documents/ShinHo/server/wechatApi/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/woolson/Documents/ShinHo/server/wechatApi/node_modules/koa-compose/index.js:43:18)
+    at views (/Users/woolson/Documents/ShinHo/server/wechatApi/node_modules/koa-views/lib/index.js:61:12)
+    at dispatch (/Users/woolson/Documents/ShinHo/server/wechatApi/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/woolson/Documents/ShinHo/server/wechatApi/node_modules/koa-compose/index.js:43:18)
+    at send.then.done (/Users/woolson/Documents/ShinHo/server/wechatApi/node_modules/koa-static/index.js:43:20)
+    at <anonymous>
+[2017-11-28 10:29:00.278] [INFO] wechat - GET /views/
+[2017-11-28 10:29:00.543] [INFO] wechat - GET /favicon.ico
+[2017-11-28 10:29:18.376] [INFO] wechat - GET /views/index.pug
+[2017-11-28 10:29:18.643] [INFO] wechat - GET /favicon.ico
+[2017-11-28 10:32:53.079] [INFO] wechat - GET /views/index.pug
+[2017-11-28 10:32:53.332] [INFO] wechat - GET /favicon.ico
+[2017-11-28 10:33:54.850] [INFO] wechat - GET /views/index.pug
+[2017-11-28 10:33:55.106] [INFO] wechat - GET /favicon.ico
+[2017-11-28 10:36:45.241] [INFO] wechat - GET /views/index.pug
+[2017-11-28 10:37:37.967] [INFO] wechat - GET /views/index.pug
+[2017-11-28 10:56:40.242] [INFO] wechat - GET /pages/
+[2017-11-28 10:56:40.860] [INFO] wechat - GET /favicon.ico
+[2017-11-28 10:58:31.908] [INFO] wechat - GET /pages/
+[2017-11-28 10:59:41.984] [INFO] wechat - GET /pages/
+[2017-11-28 10:59:56.828] [INFO] wechat - GET /pages/
+[2017-11-28 11:04:03.542] [INFO] wechat - GET /views/index.pug
+[2017-11-28 11:07:08.922] [INFO] wechat - GET /pages/
+[2017-11-28 11:07:22.377] [INFO] wechat - GET /pages/
+[2017-11-28 12:00:03.431] [INFO] wechat - GET /pages/logs/wechat.2017-11-28.log
+[2017-11-28 13:33:03.189] [INFO] wechat - GET /pages/logs/wechat.2017-11-28.log
+[2017-11-28 13:33:11.208] [INFO] wechat - GET /pages/logs/wechat.2017-11-27.log
+[2017-11-28 13:33:22.433] [INFO] wechat - GET /pages/logs/wechat.2017-11-26.log
+[2017-11-28 13:33:26.916] [INFO] wechat - GET /pages/logs/wechat.2017-11-25.log
+[2017-11-28 13:33:34.305] [INFO] wechat - GET /pages/logs/wechat.2017-11-24.log
+[2017-11-28 13:55:46.894] [INFO] wechat - GET /pages/logs/
+[2017-11-28 13:56:30.587] [INFO] wechat - GET /pages/logs/wechat.2017-11-24.log
+[2017-11-28 13:58:25.416] [INFO] wechat - GET /pages/logs/
+[2017-11-28 13:58:46.951] [INFO] wechat - GET /pages/logs/wechat.2017-11-13.log
+[2017-11-28 14:08:10.033] [INFO] wechat - GET /pages/logs/
+[2017-11-28 14:08:11.771] [INFO] wechat - GET /pages/logs/
+[2017-11-28 15:14:24.496] [INFO] wechat - GET /wechat/abc?appId=wxb8617df391f435cf
+[2017-11-28 15:16:14.464] [INFO] wechat - GET /wechat/abc?appId=wxb8617df391f435cf
+[2017-11-28 15:19:49.957] [INFO] wechat - GET /wechat/abc?appId=wxb8617df391f435cf
+[2017-11-28 15:20:28.961] [INFO] wechat - GET /wechat/abc?appId=wxb8617df391f435cf
+[2017-11-28 15:21:50.888] [INFO] wechat - GET /wechat/abc?appId=wxb8617df391f435cf
+[2017-11-28 15:22:14.550] [INFO] wechat - GET /wechat/getAccessToken?appId=wxb8617df391f435cf
+[2017-11-28 15:22:14.779] [INFO] wechat - 获取到的新AccessToken: UvsenBfvvMZKt5dWXuF5owde0UM1p65wc8_PJdYY5YhzIZ8EC4N_t-oC4Gn86evZqBD8Cr6RI5o6iQEMztYMVIQgH8vv_Jk-_uCCu4G-9JcZPBgABAFVH
+[2017-11-28 15:22:25.582] [INFO] wechat - GET /wechat/getAccessaToken?appId=wxb8617df391f435cf
+[2017-11-28 15:28:09.262] [INFO] wechat - GET /wechat/abc?appId=wxb8617df391f435cf
+[2017-11-28 15:28:19.486] [INFO] wechat - GET /wechat/getAccessToken?appId=wxb8617df391f435cf
+[2017-11-28 15:28:19.640] [INFO] wechat - 获取到的新AccessToken: yToi65YToq-p7h3fN165rAFSkWdWxN1eUbpJFbFztn2wks5gUbeoRFt8Mn_r3GZbb0giJ6fk5WjY4GdwmVtXgl_Q6ZatZ1657Axn8LkCxQKnGX-C35LMmsSPpcwo5-ySUEDbAGAOYX
+[2017-11-28 15:28:51.810] [INFO] wechat - GET /wechat/getAccessToken?appId=wxb8617df391f435cf
+[2017-11-28 15:28:51.938] [INFO] wechat - 获取到的新AccessToken: yToi65YToq-p7h3fN165rK2D-bpProJaxU-Mr3iJchSB5x2cVGgGDHO4eMVTil4LnrW9IhOAg5bLQ4oiuTuiG9vNYp0rTovNblEhMPYCg8MPKm80mH3eGQYKj4i3GOIRKKLjAEAOOP
+[2017-11-28 15:29:24.854] [INFO] wechat - GET /wechat/getAccessToken?appId=wxb8617df391f435cf

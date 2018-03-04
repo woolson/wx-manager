@@ -1,0 +1,37 @@
+[2018-01-07T22:43:35.913] [INFO] wechat - GET /wx-manager/api/app/get
+[2018-01-07T22:43:56.974] [INFO] wechat - GET /wx-manager/api/app/get
+[2018-01-07T22:45:23.115] [INFO] wechat - GET /wx-manager/api/app/get
+[2018-01-07T22:48:57.682] [INFO] wechat - GET /wx-manager/api/app/get
+[2018-01-07T22:49:35.118] [INFO] wechat - GET /wx-manager/api/app/get
+[2018-01-07T22:50:22.578] [INFO] wechat - GET /wx-manager/api/app/get
+[2018-01-07T22:51:42.623] [INFO] wechat - GET /wx-manager/api/app/get
+[2018-01-07T22:51:56.709] [INFO] wechat - GET /wx-manager/api/app/get
+[2018-01-07T22:52:36.230] [INFO] wechat - GET /wx-manager/api/app/get
+[2018-01-07T22:52:37.507] [INFO] wechat - GET /wx-manager/api/app/get
+[2018-01-07T22:53:19.256] [INFO] wechat - GET /wx-manager/api/app/get
+[2018-01-07T22:53:21.499] [INFO] wechat - GET /wx-manager/api/app/get
+[2018-01-07T22:54:49.683] [INFO] wechat - GET /wx-manager/api/app/get
+[2018-01-07T22:55:02.602] [INFO] wechat - OPTIONS /wx-manager/api/app/set
+[2018-01-07T22:55:02.639] [INFO] wechat - POST /wx-manager/api/app/set
+[2018-01-07T22:55:02.640] [INFO] wechat - Request data: {"id":1}
+[2018-01-07T23:03:47.243] [INFO] wechat - GET /wx-manager/api/app/get
+[2018-01-07T23:03:56.323] [INFO] wechat - OPTIONS /wx-manager/api/app/set
+[2018-01-07T23:03:56.352] [INFO] wechat - POST /wx-manager/api/app/set
+[2018-01-07T23:03:56.352] [INFO] wechat - Request data: {"appId":1}
+[2018-01-07T23:08:40.281] [INFO] wechat - OPTIONS /wx-manager/api/app/set
+[2018-01-07T23:08:40.289] [INFO] wechat - POST /wx-manager/api/app/set
+[2018-01-07T23:08:40.289] [INFO] wechat - Request data: {"appId":1}
+[2018-01-07T23:08:45.375] [INFO] wechat - GET /wx-manager/api/app/get
+[2018-01-07T23:08:49.191] [INFO] wechat - OPTIONS /wx-manager/api/app/set
+[2018-01-07T23:08:49.201] [INFO] wechat - POST /wx-manager/api/app/set
+[2018-01-07T23:08:49.201] [INFO] wechat - Request data: {"appId":"wxb8617df391f435cf"}
+[2018-01-07T23:09:40.647] [INFO] wechat - OPTIONS /wx-manager/api/app/set
+[2018-01-07T23:09:40.680] [INFO] wechat - POST /wx-manager/api/app/set
+[2018-01-07T23:09:40.680] [INFO] wechat - Request data: {"appId":"wxb8617df391f435cf"}
+[2018-01-07T23:15:49.017] [INFO] wechat - GET /wx-manager/api/app/get
+[2018-01-07T23:15:55.885] [INFO] wechat - OPTIONS /wx-manager/api/app/set
+[2018-01-07T23:15:55.903] [INFO] wechat - POST /wx-manager/api/app/set
+[2018-01-07T23:15:55.904] [INFO] wechat - Request data: {"appId":"wxb8617df391f435cf"}
+[2018-01-07T23:16:41.224] [INFO] wechat - GET /wx-manager/api/material/get?type=image
+[2018-01-07T23:16:49.414] [INFO] wechat - GET /wx-manager/api/app/get
+[2018-01-07T23:17:09.600] [INFO] wechat - GET /wx-manager/api/app/get

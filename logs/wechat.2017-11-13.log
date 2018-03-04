@@ -1,0 +1,10 @@
+[2017-11-13 14:15:47.517] [INFO] wechat - GET /wechat/getAllUsers
+[2017-11-13 14:16:06.371] [INFO] wechat - POST /wechat/addUser
+[2017-11-13 14:16:06.373] [INFO] wechat - Request data: {"openid":"oxB6CwqRcMU41uwfpZ-xOOMf-NGY","nickname":"Woolson","sex":"1","language":"zh_CN","city":"","province":"","country":"中国","headimgurl":"http://wx.qlogo.cn/mmopen/bHgIusRg3N5VeFjdFriaSY2ck31ElFQWpRQXfdibr2CYB2w8Gb9V6dWMws9CKSBhWW3MLENEmUWicd6v8Wk9V2Nz2YIeEpleONv/0","subscribe_time":"1510126797","remark":"","groupid":"0","tagid_list":"","updateTime":"2017-11-09 11:38:40","subscribe":"1"}
+[2017-11-13 14:16:46.437] [INFO] wechat - POST /wechat/addUser
+[2017-11-13 14:16:46.438] [INFO] wechat - Request data: {}
+[2017-11-13 14:16:53.550] [INFO] wechat - GET /wechat/getAllUsers
+[2017-11-13 14:18:05.112] [INFO] wechat - GET /wechat/getAllUsers
+[2017-11-13 14:22:23.630] [INFO] wechat - GET /wechat/getAllUsers
+[2017-11-13 14:25:27.757] [INFO] wechat - GET /wechat/incomeUser?subscribe=1&openid=oxB6CwqRcMU41uwfpZ-xOOMf-NGY&nickname=Woolson%20%E2%81%B7&sex=1&language=zh_CN&city=&province=&country=%E4%B8%AD%E5%9B%BD&headimgurl=http://wx.qlogo.cn/mmopen/bHgIusRg3N5VeFjdFriaSY2ck31ElFQWpRQXfdibr2CYB2w8Gb9V6dWMws9CKSBhWW3MLENEmUWicd6v8Wk9V2Nz2YIeEpleONv/0&subscribe_time=1510554311&remark=&groupid=0&tagid_list=
+[2017-11-13 14:25:27.855] [INFO] wechat - GET /favicon.ico

@@ -1,0 +1,25 @@
+{
+    "wxdccfe9df004fb45a": {
+        "name": "LI_PRODUCTION",
+        "appId": "wxdccfe9df004fb45a",
+        "appSecret": "7a1e9c935c283e540cbe6cab4a1bb0cb",
+        "redirect": "http://sit.x.shinho.com.cn/wechat/incomeUser",
+        "ipWhiteList": []
+    },
+    "wxb8617df391f435cf": {
+        "name": "LI_TEST",
+        "appId": "wxb8617df391f435cf",
+        "appSecret": "36642be8cb1e45d5239c5e1d77d48824",
+        "redirect": "http://feapi.xsycloud.com.cn/wechat/incomeUser",
+        "ipWhiteList": [
+            "127.0.0.1"
+        ]
+    },
+    "wx5feea1fbab359a49": {
+        "name": "CHEN_XIANG_YI",
+        "appId": "wx5feea1fbab359a49",
+        "appSecret": "c9fdd97d13385b2e3296e9d633b4ab9e",
+        "redirect": "http://sit.x.shinho.com.cn/wechat/incomeUser",
+        "ipWhiteList": []
+    }
+}

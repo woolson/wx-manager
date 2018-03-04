@@ -1,0 +1,25 @@
+[2017-11-10 18:31:20.847] [INFO] wechat - GET /wechat/getCardSignature?openId=wxb8617df391f435cf&url=http://localhost:3000/wechat/getCardSignature
+[2017-11-10 18:31:20.850] [ERROR] wechat - server error: {}
+[2017-11-10 18:31:21.202] [INFO] wechat - GET /favicon.ico
+[2017-11-10 18:31:22.874] [INFO] wechat - GET /wechat/getCardSignature?openId=wxb8617df391f435cf&url=http://localhost:3000/wechat/getCardSignature
+[2017-11-10 18:31:22.874] [ERROR] wechat - server error: {}
+[2017-11-10 18:31:52.432] [INFO] wechat - GET /wechat/getCardSignature?openId=wxb8617df391f435cf&url=http://localhost:3000/wechat/getCardSignature
+[2017-11-10 18:32:06.097] [INFO] wechat - GET /wechat/getCardSignature?openId=wxb8617df391f435cf&url=http://localhost:3000/wechat/getCardSignature
+[2017-11-10 18:34:16.028] [INFO] wechat - GET /wechat/getCardSignature?openId=wxb8617df391f435cf&url=http://localhost:3000/wechat/getCardSignature
+[2017-11-10 18:34:32.790] [INFO] wechat - GET /wechat/getCardSignature?appId=wxb8617df391f435cf&url=http://localhost:3000/wechat/getCardSignature
+[2017-11-10 18:34:32.986] [INFO] wechat - 获取到的新AccessToken: {"access_token":"dbZH1nehxza0R5dQ0780V1t2QOZDSVkCOBSyIrjhENidGh1zc9Oa2wHwrxsk2P1ka3WgUGpj4z-ibgijageaai6o90mXaEsBtSZWdo7By3YEIKeAEAZDF","expires_in":7200}
+[2017-11-10 18:40:36.900] [INFO] wechat - GET /wechat/getCardSignature?appId=wxb8617df391f435cf&url=http://localhost:3000/wechat/getCardSignature
+[2017-11-10 18:40:45.643] [INFO] wechat - GET /wechat/getCardSignature?appId=wxb8617df391f435cf&url=http://localhost:3000/wechat/getCardSignature
+[2017-11-10 18:47:46.206] [INFO] wechat - GET /wechat/getCardSignature?appId=wxb8617df391f435cf&url=http://localhost:3000/wechat/getCardSignature
+[2017-11-10 18:48:16.202] [INFO] wechat - GET /wechat/getCardSignature?appId=wxb8617df391f435cf&url=http://localhost:3000/wechat/getCardSignature
+[2017-11-10 18:48:37.139] [INFO] wechat - GET /wechat/getCardSignature?appId=wxb8617df391f435cf&url=http://localhost:3000/wechat/getCardSignature
+[2017-11-10 18:49:04.750] [INFO] wechat - GET /wechat/getCardSignature?appId=wxb8617df391f435cf&url=http://localhost:3000/wechat/getCardSignature
+[2017-11-10 18:49:20.860] [INFO] wechat - GET /wechat/getCardSignature?appId=wxb8617df391f435cf&url=http://localhost:3000/wechat/getCardSignature
+[2017-11-10 18:49:48.879] [INFO] wechat - GET /wechat/getCardSignature?appId=wxb8617df391f435cf&url=http://localhost:3000/wechat/getCardSignature
+[2017-11-10 18:50:12.237] [INFO] wechat - GET /wechat/getCardSignature?appId=wxb8617df391f435cf&url=http://localhost:3000/wechat/getCardSignature
+[2017-11-10 18:50:37.415] [INFO] wechat - GET /wechat/getCardSignature?appId=wxb8617df391f435cf&url=http://localhost:3000/wechat/getCardSignature
+[2017-11-10 18:50:58.452] [INFO] wechat - GET /wechat/getCardSignature?appId=wxb8617df391f435cf&url=http://localhost:3000/wechat/getCardSignature
+[2017-11-10 18:50:58.466] [ERROR] wechat - server error: {}
+[2017-11-10 18:51:08.427] [INFO] wechat - GET /wechat/getCardSignature?appId=wxb8617df391f435cf&url=http://localhost:3000/wechat/getCardSignature
+[2017-11-10 18:52:10.466] [INFO] wechat - GET /wechat/getCardSignature?appId=wxb8617df391f435cf&url=http://localhost:3000/wechat/getCardSignature
+[2017-11-10 18:52:24.076] [INFO] wechat - GET /wechat/getCardSignature?appId=wxb8617df391f435cf&url=http://localhost:3000/wechat/getCardSignature

@@ -1,0 +1,88 @@
+[2018-03-04T15:54:18.695] [INFO] wechat - GET /wx-manager/api/app/get
+[2018-03-04T15:54:55.087] [INFO] wechat - GET /wx-manager/api/app/get
+[2018-03-04T15:55:08.812] [INFO] wechat - GET /wx-manager/api/app/get
+[2018-03-04T15:58:15.087] [INFO] wechat - GET /wx-manager/api/app/get
+[2018-03-04T15:58:40.821] [INFO] wechat - GET /wx-manager/api/app/get
+[2018-03-04T15:59:14.178] [INFO] wechat - OPTIONS /wx-manager/api/app/set
+[2018-03-04T15:59:14.212] [INFO] wechat - POST /wx-manager/api/app/set
+[2018-03-04T15:59:14.212] [INFO] wechat - Request data: {"appId":"wxdccfe9df004fb45a"}
+[2018-03-04T19:37:25.581] [INFO] wechat - GET /wx-manager/api/app/get
+[2018-03-04T19:39:04.038] [INFO] wechat - GET /wx-manager/api/app/get
+[2018-03-04T19:39:37.540] [INFO] wechat - GET /wx-manager/api/app/get
+[2018-03-04T19:41:38.164] [INFO] wechat - GET /wx-manager/api/app/get
+[2018-03-04T19:41:50.915] [INFO] wechat - GET /wx-manager/api/app/get
+[2018-03-04T19:44:32.374] [INFO] wechat - GET /wx-manager/api/app/get
+[2018-03-04T19:44:36.030] [INFO] wechat - GET /wx-manager/api/app/get
+[2018-03-04T19:44:39.757] [INFO] wechat - OPTIONS /wx-manager/api/app/set
+[2018-03-04T19:44:39.795] [INFO] wechat - POST /wx-manager/api/app/set
+[2018-03-04T19:44:39.795] [INFO] wechat - Request data: {"appId":"wxb8617df391f435cf"}
+[2018-03-04T19:44:41.766] [INFO] wechat - GET /wx-manager/api/app/get
+[2018-03-04T19:55:20.494] [INFO] wechat - GET /wx-manager/api/app/get
+[2018-03-04T19:56:16.878] [INFO] wechat - GET /wx-manager/api/app/get
+[2018-03-04T19:57:02.924] [INFO] wechat - POST /wx-manager/api/app/add?password=woolsonlee
+[2018-03-04T19:57:02.925] [INFO] wechat - Request data: {"name":"123","appId":"123","secret":"123","password":"woolsonlee"}
+[2018-03-04T19:57:32.234] [INFO] wechat - OPTIONS /wx-manager/api/app/add?password=woolsonlee
+[2018-03-04T19:57:32.268] [INFO] wechat - POST /wx-manager/api/app/add?password=woolsonlee
+[2018-03-04T19:57:32.268] [INFO] wechat - Request data: {"name":"123","appId":"123","secret":"123","password":"woolsonlee"}
+[2018-03-04T19:58:29.225] [INFO] wechat - GET /wx-manager/api/app/get
+[2018-03-04T19:58:36.606] [INFO] wechat - OPTIONS /wx-manager/api/app/add?password=woolsonlee
+[2018-03-04T19:58:36.613] [INFO] wechat - POST /wx-manager/api/app/add?password=woolsonlee
+[2018-03-04T19:58:36.613] [INFO] wechat - Request data: {"name":"123","appId":"123","appSecret":"123","password":"woolsonlee"}
+[2018-03-04T19:59:04.918] [INFO] wechat - OPTIONS /wx-manager/api/app/add?password=woolsonlee
+[2018-03-04T19:59:04.951] [INFO] wechat - POST /wx-manager/api/app/add?password=woolsonlee
+[2018-03-04T19:59:04.951] [INFO] wechat - Request data: {"name":"123","appId":"123","appSecret":"123","password":"woolsonlee"}
+[2018-03-04T19:59:28.965] [INFO] wechat - OPTIONS /wx-manager/api/app/add?password=woolsonlee
+[2018-03-04T19:59:28.999] [INFO] wechat - POST /wx-manager/api/app/add?password=woolsonlee
+[2018-03-04T19:59:28.999] [INFO] wechat - Request data: {"name":"123","appId":"123","appSecret":"123","password":"woolsonlee"}
+[2018-03-04T19:59:29.033] [INFO] wechat - GET /wx-manager/api/app/get
+[2018-03-04T20:00:01.724] [INFO] wechat - GET /wx-manager/api/app/get
+[2018-03-04T20:09:05.710] [INFO] wechat - POST /wx-manager/api/app/delete
+[2018-03-04T20:09:05.712] [INFO] wechat - Request data: {"index":"123"}
+[2018-03-04T20:10:27.044] [INFO] wechat - OPTIONS /wx-manager/api/app/delete
+[2018-03-04T20:10:27.078] [INFO] wechat - POST /wx-manager/api/app/delete
+[2018-03-04T20:10:27.078] [INFO] wechat - Request data: {"index":"123"}
+[2018-03-04T20:10:53.360] [INFO] wechat - OPTIONS /wx-manager/api/app/delete
+[2018-03-04T20:10:53.400] [INFO] wechat - POST /wx-manager/api/app/delete
+[2018-03-04T20:10:53.400] [INFO] wechat - Request data: {"index":"123"}
+[2018-03-04T20:11:20.120] [INFO] wechat - GET /wx-manager/api/app/get
+[2018-03-04T20:11:33.140] [INFO] wechat - GET /wx-manager/api/app/get
+[2018-03-04T20:11:45.669] [INFO] wechat - GET /wx-manager/api/app/delete?appId=123
+[2018-03-04T20:11:59.085] [INFO] wechat - GET /wx-manager/api/app/delete?appId=123
+[2018-03-04T20:12:19.801] [INFO] wechat - GET /wx-manager/api/app/delete?appId=123
+[2018-03-04T20:12:19.831] [INFO] wechat - GET /wx-manager/api/app/get
+[2018-03-04T20:13:09.354] [INFO] wechat - OPTIONS /wx-manager/api/app/add
+[2018-03-04T20:13:09.389] [INFO] wechat - POST /wx-manager/api/app/add
+[2018-03-04T20:13:09.390] [INFO] wechat - Request data: {"name":"123","appId":"123","appSecret":"123","password":"woolsonlee"}
+[2018-03-04T20:13:09.425] [INFO] wechat - GET /wx-manager/api/app/get
+[2018-03-04T20:13:13.775] [INFO] wechat - GET /wx-manager/api/app/delete?appId=123
+[2018-03-04T20:13:13.803] [INFO] wechat - GET /wx-manager/api/app/get
+[2018-03-04T20:13:25.599] [INFO] wechat - OPTIONS /wx-manager/api/app/add
+[2018-03-04T20:13:25.634] [INFO] wechat - POST /wx-manager/api/app/add
+[2018-03-04T20:13:25.634] [INFO] wechat - Request data: {"name":"123","appId":"123","appSecret":"123","password":"woolsonlee"}
+[2018-03-04T20:13:25.666] [INFO] wechat - GET /wx-manager/api/app/get
+[2018-03-04T20:13:52.019] [INFO] wechat - GET /wx-manager/api/app/get
+[2018-03-04T20:13:55.107] [INFO] wechat - GET /wx-manager/api/app/delete?appId=123
+[2018-03-04T20:13:55.139] [INFO] wechat - GET /wx-manager/api/app/get
+[2018-03-04T20:13:59.639] [INFO] wechat - GET /wx-manager/api/app/get
+[2018-03-04T20:14:24.168] [INFO] wechat - OPTIONS /wx-manager/api/app/add
+[2018-03-04T20:14:24.209] [INFO] wechat - POST /wx-manager/api/app/add
+[2018-03-04T20:14:24.210] [INFO] wechat - Request data: {"name":"123","appId":"123","appSecret":"123","password":"woolsonlee"}
+[2018-03-04T20:14:24.244] [INFO] wechat - GET /wx-manager/api/app/get
+[2018-03-04T20:14:29.243] [INFO] wechat - GET /wx-manager/api/app/delete?appId=123
+[2018-03-04T20:14:29.280] [INFO] wechat - GET /wx-manager/api/app/get
+[2018-03-04T20:14:38.485] [INFO] wechat - GET /wx-manager/api/app/get
+[2018-03-04T20:26:03.464] [INFO] wechat - GET /wx-manager/api/app/get
+[2018-03-04T20:26:08.443] [INFO] wechat - POST /wx-manager/api/app/reset
+[2018-03-04T20:26:08.453] [INFO] wechat - Request data: {}
+[2018-03-04T20:26:28.407] [INFO] wechat - GET /wx-manager/api/app/get
+[2018-03-04T20:26:32.008] [INFO] wechat - GET /wx-manager/api/app/reset
+[2018-03-04T20:31:05.158] [INFO] wechat - GET /wx-manager/api/app/reset
+[2018-03-04T20:31:05.479] [INFO] wechat - 获取到的新AccessToken: 7_uAAFEr5bBIdIeChFMPvUtmbqVJQlC1dn_qjAWx1DMFQ58R-p-gIxgHu9Y4l3OSkrRvPBA8IZYnZTmarXF2wtrOJuTMPRIHPNESLE1g4s2X7oipMdmqKGHtmb01rtqjlNn4PXWGZ5TwoAuLUZAVEgAHATOX
+[2018-03-04T20:31:30.651] [INFO] wechat - GET /wx-manager/api/app/reset
+[2018-03-04T20:31:30.846] [INFO] wechat - 获取到的新AccessToken: 7_RvO6MYm1Ak1Kjgv30wM3mzRPyMDQc0mlwUKO_Xt_X9VX-3hEs4cGq9LmiqnEve9-IHsB3E0rAI7JxaPetZ62d24emTco6Xt5pTcNkg-t978yubl90Owuf5zPP0EXIgG25SoWwTVxb4LC8WRVLKEeAJAPOI
+[2018-03-04T20:32:59.521] [INFO] wechat - OPTIONS /wx-manager/api/app/add
+[2018-03-04T20:32:59.564] [INFO] wechat - POST /wx-manager/api/app/add
+[2018-03-04T20:32:59.564] [INFO] wechat - Request data: {"name":"123","appId":"123","appSecret":"123","password":"woolsonlee"}
+[2018-03-04T20:32:59.608] [INFO] wechat - GET /wx-manager/api/app/get
+[2018-03-04T20:33:07.394] [INFO] wechat - GET /wx-manager/api/app/delete?appId=123
+[2018-03-04T20:33:07.432] [INFO] wechat - GET /wx-manager/api/app/get

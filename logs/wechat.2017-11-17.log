@@ -1,0 +1,36 @@
+[2017-11-17 16:36:56.374] [ERROR] wechat - server error: {}
+[2017-11-17 16:40:39.926] [ERROR] wechat - server error: {}
+[2017-11-17 16:41:38.578] [ERROR] wechat - server error: {}
+[2017-11-17 16:42:24.873] [INFO] wechat - GET /wechat/getJsApiSignature?appId=wxb8617df391f435cf&url=http://sit.x.shinho.net.cn/wechat/getJsApiSignature
+[2017-11-17 16:42:25.220] [INFO] wechat - 获取到的新AccessToken: {"access_token":"btRFJ9rp272vXFVj49SndhJU1KJMnd7iMC1l4ruKD8yu9uIQ2FExYEijGLAW0kG4x4wk9leyBvsWVwffWY2Mz_FN1ViEas9wOqIUIh-NRD8brmU68y0P0d5K9_re-VMbGCKcAIAKGO","expires_in":7200}
+[2017-11-17 16:53:34.238] [INFO] wechat - GET /wechat/getJsApiSignature?appId=wxb8617df391f435cf&url=http://sit.x.shinho.net.cn/wechat/getJsApiSignature
+[2017-11-17 16:53:57.747] [INFO] wechat - GET /wechat/getJsApiSignature?appId=wxb8617df391f435cf&url=http://sit.x.shinho.net.cn/wechat/getJsApiSignature
+[2017-11-17 16:54:11.273] [ERROR] wechat - server error: {}
+[2017-11-17 16:56:00.642] [ERROR] wechat - server error: {}
+[2017-11-17 16:58:02.506] [ERROR] wechat - server error: {}
+[2017-11-17 17:11:15.819] [ERROR] wechat - server error: {}
+[2017-11-17 17:11:16.301] [ERROR] wechat - server error: {}
+[2017-11-17 17:11:41.383] [ERROR] wechat - server error: {}
+[2017-11-17 17:11:41.664] [ERROR] wechat - server error: {}
+[2017-11-17 17:11:58.660] [ERROR] wechat - server error: {}
+[2017-11-17 17:11:58.704] [ERROR] wechat - server error: {}
+[2017-11-17 17:13:02.217] [ERROR] wechat - server error: {}
+[2017-11-17 17:13:02.313] [ERROR] wechat - server error: {}
+[2017-11-17 17:13:14.837] [ERROR] wechat - server error: {}
+[2017-11-17 17:13:14.866] [ERROR] wechat - server error: {}
+[2017-11-17 17:15:17.102] [ERROR] wechat - server error: {}
+[2017-11-17 17:15:17.364] [ERROR] wechat - server error: {}
+[2017-11-17 17:16:14.986] [ERROR] wechat - server error: {}
+[2017-11-17 17:16:15.115] [ERROR] wechat - server error: {}
+[2017-11-17 17:18:07.342] [ERROR] wechat - server error: {}
+[2017-11-17 17:18:42.461] [ERROR] wechat - server error: {}
+[2017-11-17 17:18:55.954] [INFO] wechat - GET /wechat/getJsApiSignature?appId=wxb8617df391f435cf&url=http://sit.x.shinho.net.cn/wechat/getJsApiSignature
+[2017-11-17 17:30:55.130] [ERROR] wechat - server error: {}
+[2017-11-17 17:30:55.375] [ERROR] wechat - server error: {}
+[2017-11-17 17:40:06.434] [ERROR] wechat - server error: {}
+[2017-11-17 18:27:28.369] [ERROR] wechat - server error: {}
+[2017-11-17 18:27:28.395] [ERROR] wechat - server error: {}
+[2017-11-17 18:32:33.027] [ERROR] wechat - server error: {}
+[2017-11-17 18:32:33.117] [ERROR] wechat - server error: {}
+[2017-11-17 18:32:51.242] [ERROR] wechat - server error: {}
+[2017-11-17 18:32:51.288] [ERROR] wechat - server error: {}
