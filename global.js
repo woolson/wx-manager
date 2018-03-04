@@ -52,24 +52,31 @@ export async function reqFilter (ctx, next) {
 	} catch (e) {
 		// e有两种,一种是throw的异常，一种是微信接口返回的错误
 		const isErrType = getType(e) === 'error'
-		const err = isErrType ? e.stack.toString() : e
+		let errMessage, error
+
+		if (isErrType) {
+			errMessage = e.toString()
+			error = e.stack.toString()
+		} else {
+			errMessage = error = e
+		}
 
 		// 如果返回的错误信息是Accesstoken过期则刷新一下
 		if (!isErrType && e.errcode === 40001) {
-			const { query } = ctx.request
-			if (query.appId) {
+			const appId = ctx.cookies.get('appId')
+			if (appId) {
 				const app = new Wechat({appId: query.appId})
 				const newToken = await app.fetchToken()
 				console.log(`AccessToken已过期，更新成功：${newToken}`)
 			}
 		}
+
 		// 打印或保存log
-		if (IS_PRO) logger.error(`server error: ${err}`)
-		else console.error(err)
+		if (IS_PRO) logger.error(`server error: ${error}`)
+		else console.error(error)
 		// 统一错误返回信息
 		ctx.body = {
-			success: false,
-			error: err,
-		}
-	}
+			status: 0,
+			error: errMessage,
+		}	}
 }

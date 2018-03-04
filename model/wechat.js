@@ -16,10 +16,11 @@ export default class WeChat extends Configer {
 
 	// 获取基础Access_Token
 	async getAccessToken () {
-		const accessToken = await TokenDB.findOneSync({appId: this.appId}).accessToken || {}
+		const { accessToken = {} } = await TokenDB.findOneSync({appId: this.appId})
 		const currTime = moment().format('X')
 		const isExpired = currTime > accessToken.timestamp || isEmpty(accessToken)
-
+		// token有效性
+		logger.info(`AccessToken已过期: ${isExpired ? '是' : '否'}`)
 		if (isExpired) {
 			const token = await this.fetchToken()
 			await TokenDB.updateSync({appId: this.appId}, {

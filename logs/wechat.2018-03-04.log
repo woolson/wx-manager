@@ -1,88 +1,68 @@
-[2018-03-04T15:54:18.695] [INFO] wechat - GET /wx-manager/api/app/get
-[2018-03-04T15:54:55.087] [INFO] wechat - GET /wx-manager/api/app/get
-[2018-03-04T15:55:08.812] [INFO] wechat - GET /wx-manager/api/app/get
-[2018-03-04T15:58:15.087] [INFO] wechat - GET /wx-manager/api/app/get
-[2018-03-04T15:58:40.821] [INFO] wechat - GET /wx-manager/api/app/get
-[2018-03-04T15:59:14.178] [INFO] wechat - OPTIONS /wx-manager/api/app/set
-[2018-03-04T15:59:14.212] [INFO] wechat - POST /wx-manager/api/app/set
-[2018-03-04T15:59:14.212] [INFO] wechat - Request data: {"appId":"wxdccfe9df004fb45a"}
-[2018-03-04T19:37:25.581] [INFO] wechat - GET /wx-manager/api/app/get
-[2018-03-04T19:39:04.038] [INFO] wechat - GET /wx-manager/api/app/get
-[2018-03-04T19:39:37.540] [INFO] wechat - GET /wx-manager/api/app/get
-[2018-03-04T19:41:38.164] [INFO] wechat - GET /wx-manager/api/app/get
-[2018-03-04T19:41:50.915] [INFO] wechat - GET /wx-manager/api/app/get
-[2018-03-04T19:44:32.374] [INFO] wechat - GET /wx-manager/api/app/get
-[2018-03-04T19:44:36.030] [INFO] wechat - GET /wx-manager/api/app/get
-[2018-03-04T19:44:39.757] [INFO] wechat - OPTIONS /wx-manager/api/app/set
-[2018-03-04T19:44:39.795] [INFO] wechat - POST /wx-manager/api/app/set
-[2018-03-04T19:44:39.795] [INFO] wechat - Request data: {"appId":"wxb8617df391f435cf"}
-[2018-03-04T19:44:41.766] [INFO] wechat - GET /wx-manager/api/app/get
-[2018-03-04T19:55:20.494] [INFO] wechat - GET /wx-manager/api/app/get
-[2018-03-04T19:56:16.878] [INFO] wechat - GET /wx-manager/api/app/get
-[2018-03-04T19:57:02.924] [INFO] wechat - POST /wx-manager/api/app/add?password=woolsonlee
-[2018-03-04T19:57:02.925] [INFO] wechat - Request data: {"name":"123","appId":"123","secret":"123","password":"woolsonlee"}
-[2018-03-04T19:57:32.234] [INFO] wechat - OPTIONS /wx-manager/api/app/add?password=woolsonlee
-[2018-03-04T19:57:32.268] [INFO] wechat - POST /wx-manager/api/app/add?password=woolsonlee
-[2018-03-04T19:57:32.268] [INFO] wechat - Request data: {"name":"123","appId":"123","secret":"123","password":"woolsonlee"}
-[2018-03-04T19:58:29.225] [INFO] wechat - GET /wx-manager/api/app/get
-[2018-03-04T19:58:36.606] [INFO] wechat - OPTIONS /wx-manager/api/app/add?password=woolsonlee
-[2018-03-04T19:58:36.613] [INFO] wechat - POST /wx-manager/api/app/add?password=woolsonlee
-[2018-03-04T19:58:36.613] [INFO] wechat - Request data: {"name":"123","appId":"123","appSecret":"123","password":"woolsonlee"}
-[2018-03-04T19:59:04.918] [INFO] wechat - OPTIONS /wx-manager/api/app/add?password=woolsonlee
-[2018-03-04T19:59:04.951] [INFO] wechat - POST /wx-manager/api/app/add?password=woolsonlee
-[2018-03-04T19:59:04.951] [INFO] wechat - Request data: {"name":"123","appId":"123","appSecret":"123","password":"woolsonlee"}
-[2018-03-04T19:59:28.965] [INFO] wechat - OPTIONS /wx-manager/api/app/add?password=woolsonlee
-[2018-03-04T19:59:28.999] [INFO] wechat - POST /wx-manager/api/app/add?password=woolsonlee
-[2018-03-04T19:59:28.999] [INFO] wechat - Request data: {"name":"123","appId":"123","appSecret":"123","password":"woolsonlee"}
-[2018-03-04T19:59:29.033] [INFO] wechat - GET /wx-manager/api/app/get
-[2018-03-04T20:00:01.724] [INFO] wechat - GET /wx-manager/api/app/get
-[2018-03-04T20:09:05.710] [INFO] wechat - POST /wx-manager/api/app/delete
-[2018-03-04T20:09:05.712] [INFO] wechat - Request data: {"index":"123"}
-[2018-03-04T20:10:27.044] [INFO] wechat - OPTIONS /wx-manager/api/app/delete
-[2018-03-04T20:10:27.078] [INFO] wechat - POST /wx-manager/api/app/delete
-[2018-03-04T20:10:27.078] [INFO] wechat - Request data: {"index":"123"}
-[2018-03-04T20:10:53.360] [INFO] wechat - OPTIONS /wx-manager/api/app/delete
-[2018-03-04T20:10:53.400] [INFO] wechat - POST /wx-manager/api/app/delete
-[2018-03-04T20:10:53.400] [INFO] wechat - Request data: {"index":"123"}
-[2018-03-04T20:11:20.120] [INFO] wechat - GET /wx-manager/api/app/get
-[2018-03-04T20:11:33.140] [INFO] wechat - GET /wx-manager/api/app/get
-[2018-03-04T20:11:45.669] [INFO] wechat - GET /wx-manager/api/app/delete?appId=123
-[2018-03-04T20:11:59.085] [INFO] wechat - GET /wx-manager/api/app/delete?appId=123
-[2018-03-04T20:12:19.801] [INFO] wechat - GET /wx-manager/api/app/delete?appId=123
-[2018-03-04T20:12:19.831] [INFO] wechat - GET /wx-manager/api/app/get
-[2018-03-04T20:13:09.354] [INFO] wechat - OPTIONS /wx-manager/api/app/add
-[2018-03-04T20:13:09.389] [INFO] wechat - POST /wx-manager/api/app/add
-[2018-03-04T20:13:09.390] [INFO] wechat - Request data: {"name":"123","appId":"123","appSecret":"123","password":"woolsonlee"}
-[2018-03-04T20:13:09.425] [INFO] wechat - GET /wx-manager/api/app/get
-[2018-03-04T20:13:13.775] [INFO] wechat - GET /wx-manager/api/app/delete?appId=123
-[2018-03-04T20:13:13.803] [INFO] wechat - GET /wx-manager/api/app/get
-[2018-03-04T20:13:25.599] [INFO] wechat - OPTIONS /wx-manager/api/app/add
-[2018-03-04T20:13:25.634] [INFO] wechat - POST /wx-manager/api/app/add
-[2018-03-04T20:13:25.634] [INFO] wechat - Request data: {"name":"123","appId":"123","appSecret":"123","password":"woolsonlee"}
-[2018-03-04T20:13:25.666] [INFO] wechat - GET /wx-manager/api/app/get
-[2018-03-04T20:13:52.019] [INFO] wechat - GET /wx-manager/api/app/get
-[2018-03-04T20:13:55.107] [INFO] wechat - GET /wx-manager/api/app/delete?appId=123
-[2018-03-04T20:13:55.139] [INFO] wechat - GET /wx-manager/api/app/get
-[2018-03-04T20:13:59.639] [INFO] wechat - GET /wx-manager/api/app/get
-[2018-03-04T20:14:24.168] [INFO] wechat - OPTIONS /wx-manager/api/app/add
-[2018-03-04T20:14:24.209] [INFO] wechat - POST /wx-manager/api/app/add
-[2018-03-04T20:14:24.210] [INFO] wechat - Request data: {"name":"123","appId":"123","appSecret":"123","password":"woolsonlee"}
-[2018-03-04T20:14:24.244] [INFO] wechat - GET /wx-manager/api/app/get
-[2018-03-04T20:14:29.243] [INFO] wechat - GET /wx-manager/api/app/delete?appId=123
-[2018-03-04T20:14:29.280] [INFO] wechat - GET /wx-manager/api/app/get
-[2018-03-04T20:14:38.485] [INFO] wechat - GET /wx-manager/api/app/get
-[2018-03-04T20:26:03.464] [INFO] wechat - GET /wx-manager/api/app/get
-[2018-03-04T20:26:08.443] [INFO] wechat - POST /wx-manager/api/app/reset
-[2018-03-04T20:26:08.453] [INFO] wechat - Request data: {}
-[2018-03-04T20:26:28.407] [INFO] wechat - GET /wx-manager/api/app/get
-[2018-03-04T20:26:32.008] [INFO] wechat - GET /wx-manager/api/app/reset
-[2018-03-04T20:31:05.158] [INFO] wechat - GET /wx-manager/api/app/reset
-[2018-03-04T20:31:05.479] [INFO] wechat - 获取到的新AccessToken: 7_uAAFEr5bBIdIeChFMPvUtmbqVJQlC1dn_qjAWx1DMFQ58R-p-gIxgHu9Y4l3OSkrRvPBA8IZYnZTmarXF2wtrOJuTMPRIHPNESLE1g4s2X7oipMdmqKGHtmb01rtqjlNn4PXWGZ5TwoAuLUZAVEgAHATOX
-[2018-03-04T20:31:30.651] [INFO] wechat - GET /wx-manager/api/app/reset
-[2018-03-04T20:31:30.846] [INFO] wechat - 获取到的新AccessToken: 7_RvO6MYm1Ak1Kjgv30wM3mzRPyMDQc0mlwUKO_Xt_X9VX-3hEs4cGq9LmiqnEve9-IHsB3E0rAI7JxaPetZ62d24emTco6Xt5pTcNkg-t978yubl90Owuf5zPP0EXIgG25SoWwTVxb4LC8WRVLKEeAJAPOI
-[2018-03-04T20:32:59.521] [INFO] wechat - OPTIONS /wx-manager/api/app/add
-[2018-03-04T20:32:59.564] [INFO] wechat - POST /wx-manager/api/app/add
-[2018-03-04T20:32:59.564] [INFO] wechat - Request data: {"name":"123","appId":"123","appSecret":"123","password":"woolsonlee"}
-[2018-03-04T20:32:59.608] [INFO] wechat - GET /wx-manager/api/app/get
-[2018-03-04T20:33:07.394] [INFO] wechat - GET /wx-manager/api/app/delete?appId=123
-[2018-03-04T20:33:07.432] [INFO] wechat - GET /wx-manager/api/app/get
+[2018-03-04T22:36:37.697] [INFO] wechat - AccessToken已过期: 是
+[2018-03-04T22:36:38.243] [INFO] wechat - 获取到的新AccessToken: 7_Ihi3U6hS1q0Z7JCII7Bj_1oi3jkMWpBUbQANJU-u8G1eRDHDEdG084PkrTeWJUFexctCjfB4zWQOmXnCT69WNlcFRcQfQG748d7rkQtn4-F0RkyUbgy5n2Cr56UVB6GUfvkohuM6WYerkkvfSDGbADAEPS
+[2018-03-04T22:37:24.652] [INFO] wechat - GET /wx-manager/api/material/get?type=video
+[2018-03-04T22:37:24.653] [INFO] wechat - AccessToken已过期: 是
+[2018-03-04T22:37:24.780] [INFO] wechat - 获取到的新AccessToken: 7_NHzNm7-4GR1B2X1viE-Ji8AYCvQBwJsqm19HznA3j9shz8RE-mHac08J98qzhuS-qSFcVnJsdWEFyG90T1wD4b-3NjEwXSGZ1xRok6icb9xJffyKU2ApOALoeX4RWMcAJAKPF
+[2018-03-04T22:40:43.893] [INFO] wechat - GET /wx-manager/api/material/get?type=video
+[2018-03-04T22:40:43.903] [INFO] wechat - AccessToken已过期: 是
+[2018-03-04T22:40:44.135] [INFO] wechat - 获取到的新AccessToken: 7_oamVsWfzosttru9CkDSBool0VCpKXMLTu3gvKa8NvrI_JhAnW7p_MxS8x17EGrbnIbaxKKOerq7OZLLYi5N-OuM8xxP5AqVw3EkXJKpucaED_0SP0bJVThrhvCXg4haNZkiUSwpu5tbi0gasKHYaAIAPMD
+[2018-03-04T22:43:16.780] [INFO] wechat - GET /wx-manager/api/material/get?type=video
+[2018-03-04T22:43:16.843] [INFO] wechat - AccessToken已过期: 否
+[2018-03-04T22:44:30.125] [INFO] wechat - GET /wx-manager/api/material/get?type=video
+[2018-03-04T22:44:30.135] [INFO] wechat - AccessToken已过期: 是
+[2018-03-04T22:45:00.336] [INFO] wechat - GET /wx-manager/api/material/get?type=video
+[2018-03-04T22:45:29.428] [INFO] wechat - GET /wx-manager/api/material/get?type=video
+[2018-03-04T22:45:29.486] [INFO] wechat - AccessToken已过期: 否
+[2018-03-04T22:45:47.415] [INFO] wechat - GET /wx-manager/api/material/get?type=video
+[2018-03-04T22:45:47.489] [INFO] wechat - AccessToken已过期: 否
+[2018-03-04T22:46:04.533] [INFO] wechat - GET /wx-manager/api/app/get
+[2018-03-04T22:46:12.980] [INFO] wechat - GET /wx-manager/api/material/get?type=image
+[2018-03-04T22:46:13.020] [INFO] wechat - AccessToken已过期: 否
+[2018-03-04T22:46:58.292] [INFO] wechat - POST /wx-manager/api/material/add
+[2018-03-04T22:46:58.292] [INFO] wechat - Request data: {"fields":{"type":"image","forever":"true"},"files":{"media":[{"size":705,"path":"/var/folders/g_/8sx331z10ln40_482zycv3yw0000gn/T/upload_9eb305d88f98cf93fbef21d7cc64394a","name":"baidu_jgylogo3.gif","type":"image/gif","mtime":"2018-03-04T14:46:58.291Z"},{"size":43044,"path":"/var/folders/g_/8sx331z10ln40_482zycv3yw0000gn/T/upload_3cc7bc42ba30fe22783098f6300f5624","name":"avatar.jpg","type":"image/jpeg","mtime":"2018-03-04T14:46:58.291Z"}]}}
+[2018-03-04T22:46:58.336] [INFO] wechat - AccessToken已过期: 否
+[2018-03-04T22:47:19.886] [INFO] wechat - POST /wx-manager/api/material/add
+[2018-03-04T22:47:19.887] [INFO] wechat - Request data: {"fields":{"type":"image","forever":"true"},"files":{"media":[{"size":43044,"path":"/var/folders/g_/8sx331z10ln40_482zycv3yw0000gn/T/upload_8a66ef767c4a8c78c06a144f0480b805","name":"avatar.jpg","type":"image/jpeg","mtime":"2018-03-04T14:47:19.881Z"},{"size":705,"path":"/var/folders/g_/8sx331z10ln40_482zycv3yw0000gn/T/upload_7b487e19aa09bec59374a360b9d7a711","name":"baidu_jgylogo3.gif","type":"image/gif","mtime":"2018-03-04T14:47:19.882Z"}]}}
+[2018-03-04T22:47:19.942] [INFO] wechat - AccessToken已过期: 否
+[2018-03-04T22:47:35.384] [INFO] wechat - POST /wx-manager/api/material/add
+[2018-03-04T22:47:35.386] [INFO] wechat - Request data: {"fields":{"type":"image","forever":"true"},"files":{"media":[{"size":43044,"path":"/var/folders/g_/8sx331z10ln40_482zycv3yw0000gn/T/upload_20db7fd0c33638ea1cd576ca256a09c6","name":"avatar.jpg","type":"image/jpeg","mtime":"2018-03-04T14:47:35.380Z"},{"size":705,"path":"/var/folders/g_/8sx331z10ln40_482zycv3yw0000gn/T/upload_0f4ab73eb4bb7f65871bf1dc43b05ae7","name":"baidu_jgylogo3.gif","type":"image/gif","mtime":"2018-03-04T14:47:35.381Z"}]}}
+[2018-03-04T22:47:35.459] [INFO] wechat - AccessToken已过期: 否
+[2018-03-04T22:48:58.723] [INFO] wechat - POST /wx-manager/api/material/add
+[2018-03-04T22:48:58.724] [INFO] wechat - Request data: {"fields":{"type":"image","forever":"true"},"files":{"media":[{"size":705,"path":"/var/folders/g_/8sx331z10ln40_482zycv3yw0000gn/T/upload_2ef61e87c17a14d745097eaa29fc1d71","name":"baidu_jgylogo3.gif","type":"image/gif","mtime":"2018-03-04T14:48:58.719Z"},{"size":43044,"path":"/var/folders/g_/8sx331z10ln40_482zycv3yw0000gn/T/upload_a1a36818449034f239a776a8305d5d3a","name":"avatar.jpg","type":"image/jpeg","mtime":"2018-03-04T14:48:58.719Z"}]}}
+[2018-03-04T22:48:58.797] [INFO] wechat - AccessToken已过期: 否
+[2018-03-04T22:49:15.687] [INFO] wechat - POST /wx-manager/api/material/add
+[2018-03-04T22:49:15.688] [INFO] wechat - Request data: {"fields":{"type":"image","forever":"true"},"files":{"media":[{"size":705,"path":"/var/folders/g_/8sx331z10ln40_482zycv3yw0000gn/T/upload_3523c9a435a00d67c4a2205ec122e8cf","name":"baidu_jgylogo3.gif","type":"image/gif","mtime":"2018-03-04T14:49:15.683Z"},{"size":43044,"path":"/var/folders/g_/8sx331z10ln40_482zycv3yw0000gn/T/upload_443e95ad8a79bea0be1e1b5ca3fffadb","name":"avatar.jpg","type":"image/jpeg","mtime":"2018-03-04T14:49:15.683Z"}]}}
+[2018-03-04T22:49:15.750] [INFO] wechat - AccessToken已过期: 否
+[2018-03-04T22:50:17.516] [INFO] wechat - POST /wx-manager/api/material/add
+[2018-03-04T22:50:17.518] [INFO] wechat - Request data: {"fields":{"type":"image","forever":"true"},"files":{"media":[{"size":705,"path":"/var/folders/g_/8sx331z10ln40_482zycv3yw0000gn/T/upload_85227d3c0a2869539b0f8b2aae92c48c","name":"baidu_jgylogo3.gif","type":"image/gif","mtime":"2018-03-04T14:50:17.512Z"},{"size":43044,"path":"/var/folders/g_/8sx331z10ln40_482zycv3yw0000gn/T/upload_85eb101c029953b2621b320dedeb33ca","name":"avatar.jpg","type":"image/jpeg","mtime":"2018-03-04T14:50:17.513Z"}]}}
+[2018-03-04T22:50:17.582] [INFO] wechat - AccessToken已过期: 否
+[2018-03-04T22:51:54.950] [INFO] wechat - POST /wx-manager/api/material/add
+[2018-03-04T22:51:54.951] [INFO] wechat - Request data: {"fields":{"type":"image","forever":"true"},"files":{"media":[{"size":705,"path":"/var/folders/g_/8sx331z10ln40_482zycv3yw0000gn/T/upload_ec50f6427f220e85d75ed15e98c2a52c","name":"baidu_jgylogo3.gif","type":"image/gif","mtime":"2018-03-04T14:51:54.946Z"},{"size":43044,"path":"/var/folders/g_/8sx331z10ln40_482zycv3yw0000gn/T/upload_209702f94f0bc4537f28615a2b7baa38","name":"avatar.jpg","type":"image/jpeg","mtime":"2018-03-04T14:51:54.947Z"}]}}
+[2018-03-04T22:51:55.020] [INFO] wechat - AccessToken已过期: 否
+[2018-03-04T22:59:18.545] [INFO] wechat - POST /wx-manager/api/material/add
+[2018-03-04T22:59:18.547] [INFO] wechat - Request data: {"fields":{"type":"image","forever":"true"},"files":{"media":[{"size":43044,"path":"/var/folders/g_/8sx331z10ln40_482zycv3yw0000gn/T/upload_50e6fd4feebcc570bf72511f05aa03ec","name":"avatar.jpg","type":"image/jpeg","mtime":"2018-03-04T14:59:18.539Z"},{"size":705,"path":"/var/folders/g_/8sx331z10ln40_482zycv3yw0000gn/T/upload_334667372b1252febbf62590c792b44f","name":"baidu_jgylogo3.gif","type":"image/gif","mtime":"2018-03-04T14:59:18.540Z"}]}}
+[2018-03-04T22:59:18.607] [INFO] wechat - AccessToken已过期: 否
+[2018-03-04T23:07:46.972] [INFO] wechat - POST /wx-manager/api/material/add
+[2018-03-04T23:07:46.974] [INFO] wechat - Request data: {"fields":{"type":"image","forever":"true"},"files":{"media":[{"size":705,"path":"/var/folders/g_/8sx331z10ln40_482zycv3yw0000gn/T/upload_288daaf7dda17a5e799f9e9b6cbf4ca1","name":"baidu_jgylogo3.gif","type":"image/gif","mtime":"2018-03-04T15:07:46.969Z"},{"size":43044,"path":"/var/folders/g_/8sx331z10ln40_482zycv3yw0000gn/T/upload_f8d60b95d47631263e321f97eac45604","name":"avatar.jpg","type":"image/jpeg","mtime":"2018-03-04T15:07:46.969Z"}]}}
+[2018-03-04T23:07:47.029] [INFO] wechat - AccessToken已过期: 否
+[2018-03-04T23:09:25.011] [INFO] wechat - POST /wx-manager/api/material/add
+[2018-03-04T23:09:25.012] [INFO] wechat - Request data: {"fields":{"type":"image","forever":"false"},"files":{"media":[{"size":705,"path":"/var/folders/g_/8sx331z10ln40_482zycv3yw0000gn/T/upload_14ac80aaf901a14a8df38814c02d7ed3","name":"baidu_jgylogo3.gif","type":"image/gif","mtime":"2018-03-04T15:09:25.007Z"},{"size":43044,"path":"/var/folders/g_/8sx331z10ln40_482zycv3yw0000gn/T/upload_3c3134e1c97485139d7a998a40c4b695","name":"avatar.jpg","type":"image/jpeg","mtime":"2018-03-04T15:09:25.008Z"}]}}
+[2018-03-04T23:09:25.071] [INFO] wechat - AccessToken已过期: 否
+[2018-03-04T23:10:03.195] [INFO] wechat - POST /wx-manager/api/material/add
+[2018-03-04T23:10:03.196] [INFO] wechat - Request data: {"fields":{"type":"image","forever":"false"},"files":{"media":[{"size":705,"path":"/var/folders/g_/8sx331z10ln40_482zycv3yw0000gn/T/upload_01e308e2e965e97ba7daadf64d6c6e3e","name":"baidu_jgylogo3.gif","type":"image/gif","mtime":"2018-03-04T15:10:03.191Z"},{"size":43044,"path":"/var/folders/g_/8sx331z10ln40_482zycv3yw0000gn/T/upload_64dd0f33230525c5f06be27677f0930e","name":"avatar.jpg","type":"image/jpeg","mtime":"2018-03-04T15:10:03.192Z"}]}}
+[2018-03-04T23:10:03.272] [INFO] wechat - AccessToken已过期: 否
+[2018-03-04T23:15:25.697] [INFO] wechat - POST /wx-manager/api/material/add
+[2018-03-04T23:15:25.699] [INFO] wechat - Request data: {"fields":{"type":"image","forever":"false"},"files":{"media":[{"size":705,"path":"/var/folders/g_/8sx331z10ln40_482zycv3yw0000gn/T/upload_3750f58f4839e8b7e537d5fe38bb352b","name":"baidu_jgylogo3.gif","type":"image/gif","mtime":"2018-03-04T15:15:25.693Z"},{"size":43044,"path":"/var/folders/g_/8sx331z10ln40_482zycv3yw0000gn/T/upload_8c8f4df597e0f519b5aac6b4642a8602","name":"avatar.jpg","type":"image/jpeg","mtime":"2018-03-04T15:15:25.693Z"}]}}
+[2018-03-04T23:15:25.764] [INFO] wechat - AccessToken已过期: 否
+[2018-03-04T23:25:15.112] [INFO] wechat - POST /wx-manager/api/material/add
+[2018-03-04T23:25:15.114] [INFO] wechat - Request data: {"fields":{"type":"image","forever":"false"},"files":{"media":[{"size":43044,"path":"/var/folders/g_/8sx331z10ln40_482zycv3yw0000gn/T/upload_eccfa9e84c9cefb46a17dd253f785069","name":"avatar.jpg","type":"image/jpeg","mtime":"2018-03-04T15:25:15.108Z"},{"size":705,"path":"/var/folders/g_/8sx331z10ln40_482zycv3yw0000gn/T/upload_e7c3ee357766c8891a4d2b18b47909cf","name":"baidu_jgylogo3.gif","type":"image/gif","mtime":"2018-03-04T15:25:15.109Z"}]}}
+[2018-03-04T23:25:15.177] [INFO] wechat - AccessToken已过期: 否
+[2018-03-04T23:26:03.165] [INFO] wechat - POST /wx-manager/api/material/add
+[2018-03-04T23:26:03.166] [INFO] wechat - Request data: {"fields":{"type":"image","forever":"false"},"files":{"media":[{"size":43044,"path":"/var/folders/g_/8sx331z10ln40_482zycv3yw0000gn/T/upload_25f356cbf698b94d1f3371387aec66b4","name":"avatar.jpg","type":"image/jpeg","mtime":"2018-03-04T15:26:03.161Z"},{"size":705,"path":"/var/folders/g_/8sx331z10ln40_482zycv3yw0000gn/T/upload_fa2e446c8645f3a6a36c852e7ea6a498","name":"baidu_jgylogo3.gif","type":"image/gif","mtime":"2018-03-04T15:26:03.162Z"}]}}
+[2018-03-04T23:26:03.227] [INFO] wechat - AccessToken已过期: 否
+[2018-03-04T23:27:35.885] [INFO] wechat - POST /wx-manager/api/material/add
+[2018-03-04T23:27:35.887] [INFO] wechat - Request data: {"fields":{"type":"image","forever":"false"},"files":{"media":[{"size":43044,"path":"/var/folders/g_/8sx331z10ln40_482zycv3yw0000gn/T/upload_a44ccd46cbd861857eb5de78c8ba633b","name":"avatar.jpg","type":"image/jpeg","mtime":"2018-03-04T15:27:35.880Z"},{"size":705,"path":"/var/folders/g_/8sx331z10ln40_482zycv3yw0000gn/T/upload_e44fb2c679657ae9ba378fd6a8170497","name":"baidu_jgylogo3.gif","type":"image/gif","mtime":"2018-03-04T15:27:35.881Z"}]}}
+[2018-03-04T23:27:35.948] [INFO] wechat - AccessToken已过期: 否
+[2018-03-04T23:29:36.850] [INFO] wechat - POST /wx-manager/api/material/add
+[2018-03-04T23:29:36.851] [INFO] wechat - Request data: {"fields":{"type":"image","forever":"false"},"files":{"media":[{"size":705,"path":"/var/folders/g_/8sx331z10ln40_482zycv3yw0000gn/T/upload_1c6e55d556b4f72450271527cf63a07a","name":"baidu_jgylogo3.gif","type":"image/gif","mtime":"2018-03-04T15:29:36.846Z"},{"size":43044,"path":"/var/folders/g_/8sx331z10ln40_482zycv3yw0000gn/T/upload_d4535a0698da715a03d7b7dfa6c59ea1","name":"avatar.jpg","type":"image/jpeg","mtime":"2018-03-04T15:29:36.847Z"}]}}
+[2018-03-04T23:29:36.923] [INFO] wechat - AccessToken已过期: 否
